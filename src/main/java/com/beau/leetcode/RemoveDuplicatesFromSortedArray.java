@@ -1,6 +1,7 @@
-package com.beau;
+package com.beau.leetcode;
 
-public class Solution {
+// 26
+public class RemoveDuplicatesFromSortedArray {
 
     public int removeDuplicates(int[] nums) {
         // 双指针法
@@ -9,7 +10,7 @@ public class Solution {
         }
         int index = 0;
         for (int i = 1; i < nums.length; i++) {
-            if (nums[index] != nums[i] && i - index >= 1) {
+            if (nums[index] != nums[i]) {
                 nums[++index] = nums[i];
             }
         }
