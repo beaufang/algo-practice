@@ -4,7 +4,11 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-// 350
+/**
+ * @author BeauFang
+ * Date: 2020/7/16
+ * 350
+ */
 public class IntersectionsOfTwoArray2 {
 
 

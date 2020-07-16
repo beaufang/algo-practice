@@ -3,19 +3,17 @@ package com.beau.leetcode;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-// 84
+/**
+ * @author BeauFang
+ * Date: 2020/7/16
+ * 84
+ */
 public class LargestRectangleInHistogram {
 
     // 单调栈+哨兵
     @SuppressWarnings("all")
     public int largestRectangleArea(int[] heights) {
         int len = heights.length;
-        if (len == 0) {
-            return 0;
-        }
-        if (len == 1) {
-            return heights[0];
-        }
         int[] newHeights = new int[len + 2];
         System.arraycopy(heights, 0, newHeights, 1, len);
         // 设置哨兵, 数组首位添加 0

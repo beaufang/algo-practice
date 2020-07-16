@@ -1,6 +1,11 @@
 package com.beau.leetcode;
 
-// 88
+
+/**
+ * @author BeauFang
+ * Date: 2020/7/16
+ * 88
+ */
 public class MergeSortedArray {
 
     // 双指针尾部遍历

@@ -3,7 +3,12 @@ package com.beau.leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-// 1
+
+/**
+ * @author BeauFang
+ * Date: 2020/7/16
+ * 1
+ */
 public class TwoSum {
 
     public int[] twoSum(int[] nums, int target) {

@@ -8,10 +8,13 @@ public class PlusOne {
             digits[i] = digits[i] + 1;
             digits[i] = digits[i] % 10;
             // 不需要进位
-            if (digits[i] != 0) return digits;
+            if (digits[i] != 0) {
+                return digits;
+            }
         }
         // 处理 999 的情况
-        digits = new int[digits.length + 1 ]; // 数组默认初始化为 0
+        // 数组默认初始化为 0
+        digits = new int[digits.length + 1 ];
         digits[0] = 1;
         return digits;
     }

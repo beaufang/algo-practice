@@ -2,7 +2,11 @@ package com.beau.leetcode;
 
 import java.util.Arrays;
 
-// 189
+/**
+ * @author BeauFang
+ * Date: 2020/7/16
+ * 189
+ */
 public class RotateArray {
 
     // 暴力法
@@ -32,8 +36,11 @@ public class RotateArray {
     // 但是需要注意: 当 n % k = 0 时，会回到起点
     public static void rotate3(int[] nums, int k) {
         int count = 0, len = nums.length;
-        k = k % len; // 处理 k > nums.length 的情况
-        if (k == 0) return; // k = 0, 相当于没有旋转
+        // 处理 k > nums.length 的情况
+        k = k % len;
+        if (k == 0) {
+            return; // k = 0, 相当于没有旋转
+        }
         for (int start = 0; count < len; start ++ ) {
             int current = start;
             int pre = nums[start];

@@ -4,21 +4,22 @@ import com.beau.common.ListNode;
 
 public class Solution {
 
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode sentinel = new ListNode(); // 哨兵
-        ListNode tail = sentinel;
-        ListNode i = l1, j = l2;
-        while (i != null || j != null) {
-            if (i != null && i.val < j.val) {
-                tail.next = i;
-                tail = i;
-                i = i.next;
-            } else if (i == null || j.val < i.val) {
-                tail.next = j;
-                tail = tail.next;
-                j = j.next;
-            }
+    public void rotate(int[] nums, int k) {
+        int len = nums.length;
+        k = k % len;
+        if (k == 0) {
+            return;
         }
-        return sentinel.next;
+        for (int start = 0; start < len; start++) {
+            int current = start;
+            int pre = nums[current];
+            do {
+                int next = (start + k) % len;
+                int tmp = nums[next];
+                nums[next] = pre;
+                current = next;
+                pre = tmp;
+            } while (current != start);
+        }
     }
 }

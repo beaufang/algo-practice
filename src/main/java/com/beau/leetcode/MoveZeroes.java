@@ -1,6 +1,10 @@
 package com.beau.leetcode;
 
-// 283
+/**
+ * @author BeauFang
+ * Date: 2020/7/16
+ * 283
+ */
 public class MoveZeroes {
 
     public void moveZeroes(int[] nums) {

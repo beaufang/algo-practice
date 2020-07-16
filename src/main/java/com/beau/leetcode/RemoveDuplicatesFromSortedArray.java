@@ -1,6 +1,10 @@
 package com.beau.leetcode;
 
-// 26
+/**
+ * @author BeauFang
+ * Date: 2020/7/16
+ * 26
+ */
 public class RemoveDuplicatesFromSortedArray {
 
     public int removeDuplicates(int[] nums) {
