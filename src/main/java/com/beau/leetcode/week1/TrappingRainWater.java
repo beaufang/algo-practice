@@ -1,4 +1,4 @@
-package com.beau.leetcode;
+package com.beau.leetcode.week1;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -20,7 +20,7 @@ public class TrappingRainWater {
         int l = 0, r = height.length - 1;
         int maxL = height[0], maxR = height[height.length - 1];
         while (l < r) {
-            if (height[r] > height[l]) {
+            if (maxR > maxL) {
                 ans += maxL - height[l];
                 maxL = Math.max(maxL, height[++l]);
             } else {

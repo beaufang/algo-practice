@@ -1,4 +1,4 @@
-package com.beau.leetcode;
+package com.beau.leetcode.week1;
 
 import java.util.Arrays;
 
@@ -27,7 +27,7 @@ public class RotateArray {
     public void rotate2(int[] nums, int k) {
         int[] tmpNums = Arrays.copyOfRange(nums, 0, nums.length);
         for (int i = 0; i < nums.length; i++) {
-            nums[(i + k)% nums.length] = tmpNums[i];
+            nums[(i + k) % nums.length] = tmpNums[i];
         }
     }
 
@@ -41,7 +41,7 @@ public class RotateArray {
         if (k == 0) {
             return; // k = 0, 相当于没有旋转
         }
-        for (int start = 0; count < len; start ++ ) {
+        for (int start = 0; count < len; start++) {
             int current = start;
             int pre = nums[start];
             do {

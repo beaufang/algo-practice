@@ -1,4 +1,4 @@
-package com.beau.leetcode;
+package com.beau.leetcode.week1;
 
 /**
  * @author BeauFang

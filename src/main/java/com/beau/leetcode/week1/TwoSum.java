@@ -1,4 +1,4 @@
-package com.beau.leetcode;
+package com.beau.leetcode.week1;
 
 import java.util.HashMap;
 import java.util.Map;

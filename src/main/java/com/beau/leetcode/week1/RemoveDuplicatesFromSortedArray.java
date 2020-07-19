@@ -1,4 +1,4 @@
-package com.beau.leetcode;
+package com.beau.leetcode.week1;
 
 /**
  * @author BeauFang
@@ -9,8 +9,8 @@ public class RemoveDuplicatesFromSortedArray {
 
     public int removeDuplicates(int[] nums) {
         // 双指针法
-        if (nums.length < 2) {
-            return nums.length;
+        if (nums.length == 0) {
+            return 0;
         }
         int index = 0;
         for (int i = 1; i < nums.length; i++) {
