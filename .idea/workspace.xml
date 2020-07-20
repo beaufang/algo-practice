@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week1/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/common/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week1/SlidingWindowMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week2/NaryTreePostorderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +64,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.SlidingWindowMaximum">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.beau.Main" />
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.beau.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week1.SlidingWindowMaximum" />
+      <module name="algo-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beau.leetcode.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SlidingWindowMaximum" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TrappingRainWater" />
       </list>
@@ -117,7 +134,7 @@
       <workItem from="1594991313947" duration="2803000" />
       <workItem from="1595030369073" duration="18036000" />
       <workItem from="1595114015880" duration="11820000" />
-      <workItem from="1595206317313" duration="3713000" />
+      <workItem from="1595206317313" duration="14967000" />
     </task>
     <task id="LOCAL-00001" summary="283">
       <created>1594644944087</created>
@@ -189,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595208535257</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="MinStack">
+      <created>1595211024887</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1595211024887</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +229,8 @@
     <MESSAGE value="TrappingRainWater" />
     <MESSAGE value="修改目录" />
     <MESSAGE value="20 有效括号" />
-    <option name="LAST_COMMIT_MESSAGE" value="20 有效括号" />
+    <MESSAGE value="MinStack" />
+    <option name="LAST_COMMIT_MESSAGE" value="MinStack" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
@@ -224,10 +249,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="71" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1536.824@0.0.1536.824" timestamp="1594627491113" />
-    <state x="471" y="9" key="CommitChangelistDialog2" timestamp="1595208533093">
+    <state x="466" y="9" key="CommitChangelistDialog2" timestamp="1595211021528">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="471" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595208533093" />
+    <state x="466" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595211021528" />
     <state x="628" y="148" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1595161311439" />
     <state x="198" y="94" key="DiffContextDialog" timestamp="1594770786828">
       <screen x="0" y="0" width="2048" height="1112" />
@@ -238,45 +263,45 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594888453718" />
     <state x="732" y="225" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1595066629373" />
-    <state width="2005" height="375" key="GridCell.Tab.0.bottom" timestamp="1595086963426">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1595231657255">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594976593882" />
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595231657255" />
     <state width="2005" height="375" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1595086963426" />
-    <state width="2005" height="375" key="GridCell.Tab.0.center" timestamp="1595086963425">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1595231657255">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594976593882" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595231657255" />
     <state width="2005" height="375" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1595086963425" />
-    <state width="2005" height="375" key="GridCell.Tab.0.left" timestamp="1595086963425">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1595231657255">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594976593882" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595231657255" />
     <state width="2005" height="375" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1595086963425" />
-    <state width="2005" height="375" key="GridCell.Tab.0.right" timestamp="1595086963426">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1595231657255">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594976593882" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595231657255" />
     <state width="2005" height="375" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1595086963426" />
-    <state width="2005" height="375" key="GridCell.Tab.1.bottom" timestamp="1595086963426">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1595228683664">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594976593877" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595228683664" />
     <state width="2005" height="375" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1595086963426" />
-    <state width="2005" height="375" key="GridCell.Tab.1.center" timestamp="1595086963426">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1595228683664">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594976593877" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595228683664" />
     <state width="2005" height="375" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1595086963426" />
-    <state width="2005" height="375" key="GridCell.Tab.1.left" timestamp="1595086963426">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1595228683664">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594976593877" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595228683664" />
     <state width="2005" height="375" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1595086963426" />
-    <state width="2005" height="375" key="GridCell.Tab.1.right" timestamp="1595086963426">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1595228683664">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594976593877" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595228683664" />
     <state width="2005" height="375" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1595086963426" />
     <state x="332" y="0" key="SettingsEditor" timestamp="1594855588278">
       <screen x="0" y="0" width="2048" height="1112" />
