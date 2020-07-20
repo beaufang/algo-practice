@@ -13,7 +13,7 @@ public class NaryTreePostorderTraversal {
 
     // 迭代解法
     public List<Integer> postorder(Node root) {
-        Deque<Node> stack = new LinkedList<>();
+        LinkedList<Node> stack = new LinkedList<>();
         LinkedList<Integer> ans = new LinkedList<>();
         if (root == null) {
             return ans;
