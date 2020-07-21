@@ -2,50 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/graph/DirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/graph/ShortestPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/graph/UnDirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/search/BinSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/search/FibSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/tree/BinTreeInOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/tree/BinTreeLayerTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/tree/BinTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/tree/BinTreePostOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/tree/BinTreePreOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/tree/ITreeVisit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/tree/TreePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/common/Fib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/common/INode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/common/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/ArrayNesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/CourseSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/DiameterOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/LargestRectangleArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/LeastBricks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/LongestPalindromeSubseq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/SimplifyPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/StrStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/ValidBracket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week2/BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/nowcoder/CommonMultiple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/nowcoder/CountWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/nowcoder/FourThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/nowcoder/LastWordLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/nowcoder/MatrixMultiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/nowcoder/NumberTrans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/nowcoder/PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/nowcoder/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/nowcoder/RoundValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/nowcoder/StringSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/nowcoder/StudentCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/beau/TreeNodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week2/BinaryTreePreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week2/NaryTreeLevelOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week1/SlidingWindowMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week1/SlidingWindowMaximum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week2/BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week2/BinaryTreeInorderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +75,7 @@
       <recent name="D:\workplace\practice\algo-practice\src\main\java\com\beau\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeInorderTraversal">
+  <component name="RunManager" selected="Application.SlidingWindowMaximum">
     <configuration name="BinaryTreeInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week2.BinaryTreeInorderTraversal" />
       <module name="algo-practice" />
@@ -185,9 +146,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SlidingWindowMaximum" />
         <item itemvalue="Application.BinaryTreeInorderTraversal" />
         <item itemvalue="JUnit.TreeNodeTest.testGenTree" />
-        <item itemvalue="Application.SlidingWindowMaximum" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TrappingRainWater" />
       </list>
@@ -215,7 +176,8 @@
       <workItem from="1594991313947" duration="2803000" />
       <workItem from="1595030369073" duration="18036000" />
       <workItem from="1595114015880" duration="11820000" />
-      <workItem from="1595206317313" duration="25387000" />
+      <workItem from="1595206317313" duration="25816000" />
+      <workItem from="1595292092143" duration="13029000" />
     </task>
     <task id="LOCAL-00001" summary="283">
       <created>1594644944087</created>
@@ -308,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595247604038</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="二叉树的遍历">
+      <created>1595254890556</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595254890556</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +296,8 @@
     <MESSAGE value="MinStack" />
     <MESSAGE value="滑动窗口最大值" />
     <MESSAGE value="N 叉树的遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="N 叉树的遍历" />
+    <MESSAGE value="二叉树的遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树的遍历" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
@@ -346,11 +316,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="71" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1536.824@0.0.1536.824" timestamp="1594627491113" />
-    <state x="628" y="148" key="CommitChangelistDialog2" timestamp="1595247599447">
+    <state x="628" y="148" key="CommitChangelistDialog2" timestamp="1595254886712">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="466" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595231915897" />
-    <state x="628" y="148" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1595247599447" />
+    <state x="628" y="148" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1595254886712" />
     <state x="198" y="94" key="DiffContextDialog" timestamp="1594770786828">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -360,46 +330,46 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594888453718" />
     <state x="732" y="225" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1595251120823" />
-    <state width="2005" height="207" key="GridCell.Tab.0.bottom" timestamp="1595254643392">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="140" key="GridCell.Tab.0.bottom" timestamp="1595315606561">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595231657255" />
-    <state width="2005" height="207" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1595254643392" />
-    <state width="2005" height="207" key="GridCell.Tab.0.center" timestamp="1595254643392">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="140" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595315606561" />
+    <state width="2005" height="374" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1595255082242" />
+    <state width="1493" height="140" key="GridCell.Tab.0.center" timestamp="1595315606561">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595231657255" />
-    <state width="2005" height="207" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1595254643392" />
-    <state width="2005" height="207" key="GridCell.Tab.0.left" timestamp="1595254643392">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="140" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595315606561" />
+    <state width="2005" height="374" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1595255082241" />
+    <state width="1493" height="140" key="GridCell.Tab.0.left" timestamp="1595315606560">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595231657255" />
-    <state width="2005" height="207" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1595254643392" />
-    <state width="2005" height="207" key="GridCell.Tab.0.right" timestamp="1595254643392">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="140" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595315606560" />
+    <state width="2005" height="374" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1595255082241" />
+    <state width="1493" height="140" key="GridCell.Tab.0.right" timestamp="1595315606561">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595231657255" />
-    <state width="2005" height="207" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1595254643392" />
-    <state width="2005" height="374" key="GridCell.Tab.1.bottom" timestamp="1595254255876">
+    <state width="1493" height="140" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595315606561" />
+    <state width="2005" height="374" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1595255082241" />
+    <state width="2005" height="374" key="GridCell.Tab.1.bottom" timestamp="1595255082242">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595228683664" />
-    <state width="2005" height="374" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1595254255876" />
-    <state width="2005" height="374" key="GridCell.Tab.1.center" timestamp="1595254255876">
+    <state width="2005" height="374" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1595255082242" />
+    <state width="2005" height="374" key="GridCell.Tab.1.center" timestamp="1595255082242">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595228683664" />
-    <state width="2005" height="374" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1595254255876" />
-    <state width="2005" height="374" key="GridCell.Tab.1.left" timestamp="1595254255876">
+    <state width="2005" height="374" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1595255082242" />
+    <state width="2005" height="374" key="GridCell.Tab.1.left" timestamp="1595255082242">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595228683664" />
-    <state width="2005" height="374" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1595254255876" />
-    <state width="2005" height="374" key="GridCell.Tab.1.right" timestamp="1595254255876">
+    <state width="2005" height="374" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1595255082242" />
+    <state width="2005" height="374" key="GridCell.Tab.1.right" timestamp="1595255082242">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595228683664" />
-    <state width="2005" height="374" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1595254255876" />
+    <state width="2005" height="374" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1595255082242" />
     <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1595252314478">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -409,15 +379,15 @@
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594628264707" />
     <state x="332" y="0" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1594855588278" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595206320298">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595292110439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595206320298" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595292110439" />
     <state x="599" y="318" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1595114014266" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1595252222289">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="515" y="180" width="672" height="503" key="search.everywhere.popup" timestamp="1595301786968">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="515" y="180" width="672" height="503" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594714845375" />
+    <state x="515" y="180" width="672" height="503" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595301786968" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1595252222289" />
   </component>
   <component name="XDebuggerManager">

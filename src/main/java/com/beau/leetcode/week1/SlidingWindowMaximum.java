@@ -1,8 +1,6 @@
 package com.beau.leetcode.week1;
 
-import java.util.ArrayDeque;
-import java.util.Arrays;
-import java.util.Deque;
+import java.util.*;
 
 /**
  * @author BeauFang
@@ -10,6 +8,27 @@ import java.util.Deque;
  * 239 https://leetcode-cn.com/problems/sliding-window-maximum/
  */
 public class SlidingWindowMaximum {
+
+    // 大顶堆 （超出时间限制/(ㄒoㄒ)/~~）
+    public int[] maxSlidingWindow2(int[] nums, int k) {
+        if (nums == null || nums.length < 2 || k == 1) {
+            return nums;
+        }
+        int[] ans = new int[nums.length - k + 1];
+        // 大顶堆
+        PriorityQueue<Integer> queue = new PriorityQueue<>((o1, o2) -> o2 - o1);
+        for (int i = 0; i < nums.length; i++) {
+            if (queue.size() >= k) {
+                queue.remove(nums[i - k]);
+            }
+            queue.add(nums[i]);
+            if (queue.size() == k) {
+                ans[i - k + 1] = queue.peek();
+            }
+        }
+
+        return ans;
+    }
 
     // 单调队列
     public int[] maxSlidingWindow(int[] nums, int k) {

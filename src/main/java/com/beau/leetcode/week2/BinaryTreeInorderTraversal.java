@@ -47,6 +47,40 @@ public class BinaryTreeInorderTraversal {
         return ans;
     }
 
+
+    // 着色法
+    public List<Integer> inorderTraversal2(TreeNode root) {
+        List<Integer> ans = new LinkedList<>();
+        if (root == null) {
+            return ans;
+        }
+        // 记录节点的访问次数，中序遍历会在节点第二次访问的时候输出
+        Map<TreeNode, Integer> counter = new HashMap<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        stack.addLast(root);
+        counter.put(root, 1);
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pollLast();
+            // 如果是第一次访问
+            if (counter.getOrDefault(node, 1) == 1) {
+                if (node.right != null) {
+                    stack.addLast(node.right);
+                    counter.put(node.right, 1);
+                }
+                stack.addLast(node);
+                counter.put(node, 2);
+                if (node.left != null) {
+                    stack.addLast(node.left);
+                    counter.put(node.left, 1);
+                }
+            } else {
+                // 第二次访问
+                ans.add(node.val);
+            }
+        }
+        return ans;
+    }
+
     public static void main(String[] args) {
         BinaryTreeInorderTraversal solution = new BinaryTreeInorderTraversal();
         TreeNode treeNode = TreeNode.genTree(1, null, 2, null, null, 3);
