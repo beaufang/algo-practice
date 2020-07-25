@@ -21,6 +21,7 @@ public class Combinations {
     private void backtrack(int first, LinkedList<Integer> cur, List<List<Integer>> ans, int n, int k) {
         if (cur.size() == k) {
             ans.add(new LinkedList<>(cur));
+            return;
         }
         for (int i = first; i <= n; i++) {
             cur.add(i);

@@ -30,7 +30,7 @@ public class SlidingWindowMaximum {
         return ans;
     }
 
-    // 单调队列
+    // 双端队列
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums == null || nums.length < 2 || k == 1) {
             return nums;
@@ -42,7 +42,6 @@ public class SlidingWindowMaximum {
             while (!deque.isEmpty() && (i - deque.peekFirst() >= k)) {
                 deque.pollFirst();
             }
-            // 保持队列的递减
             while (!deque.isEmpty() && nums[i] >= nums[deque.peekLast()]) {
                 deque.pollLast();
             }
