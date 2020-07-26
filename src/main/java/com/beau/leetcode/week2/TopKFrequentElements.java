@@ -33,7 +33,7 @@ public class TopKFrequentElements {
         for (int num : nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
-        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(k, Comparator.comparingInt(map::get));
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Comparator.comparingInt(map::get));
         map.keySet().forEach(key -> {
             priorityQueue.add(key);
             if (priorityQueue.size() > k) {
