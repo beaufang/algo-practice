@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/PowXN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/Subsets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +73,9 @@
       <recent name="D:\workplace\practice\algo-practice\src\main\java\com\beau\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SerializeAndDeserializeBinaryTree">
-    <configuration name="BinaryTreeInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week2.BinaryTreeInorderTraversal" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week2.Combinations" />
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
@@ -86,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week2.Combinations" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.beau.Main" />
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.week2.*" />
+          <option name="PATTERN" value="com.beau.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SerializeAndDeserializeBinaryTree" />
         <item itemvalue="Application.Combinations" />
         <item itemvalue="Application.TopKFrequentElements" />
         <item itemvalue="Application.SlidingWindowMaximum" />
-        <item itemvalue="Application.BinaryTreeInorderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +182,7 @@
       <workItem from="1595720959397" duration="6028000" />
       <workItem from="1595803052456" duration="2479000" />
       <workItem from="1595813416580" duration="4777000" />
-      <workItem from="1595891478267" duration="2572000" />
+      <workItem from="1595891478267" duration="9633000" />
     </task>
     <task id="LOCAL-00001" summary="283">
       <created>1594644944087</created>
@@ -379,14 +380,20 @@
       <option name="project" value="LOCAL" />
       <updated>1595892696023</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Pow(x,n)">
+      <created>1595894222244</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1595894222244</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="84 最大矩形面积" />
     <MESSAGE value="合并有序数组" />
     <MESSAGE value="PlusOne" />
     <MESSAGE value="MyCircularDeque" />
@@ -411,7 +418,8 @@
     <MESSAGE value="买卖股票的最佳时机2" />
     <MESSAGE value="分发饼干" />
     <MESSAGE value="模拟行走的机器人" />
-    <option name="LAST_COMMIT_MESSAGE" value="模拟行走的机器人" />
+    <MESSAGE value="Pow(x,n)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pow(x,n)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
@@ -446,25 +454,25 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594888453718" />
     <state x="732" y="225" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1595460229094" />
-    <state width="2005" height="374" key="GridCell.Tab.0.bottom" timestamp="1595682866692">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="139" key="GridCell.Tab.0.bottom" timestamp="1595919881224">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="140" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595486499684" />
+    <state width="1493" height="139" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595919881224" />
     <state width="2005" height="374" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1595682866692" />
-    <state width="2005" height="374" key="GridCell.Tab.0.center" timestamp="1595682866692">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="139" key="GridCell.Tab.0.center" timestamp="1595919881224">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="140" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595486499683" />
+    <state width="1493" height="139" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595919881224" />
     <state width="2005" height="374" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1595682866692" />
-    <state width="2005" height="374" key="GridCell.Tab.0.left" timestamp="1595682866692">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="139" key="GridCell.Tab.0.left" timestamp="1595919881224">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="140" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595486499683" />
+    <state width="1493" height="139" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595919881224" />
     <state width="2005" height="374" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1595682866692" />
-    <state width="2005" height="374" key="GridCell.Tab.0.right" timestamp="1595682866692">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1493" height="139" key="GridCell.Tab.0.right" timestamp="1595919881224">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="140" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595486499684" />
+    <state width="1493" height="139" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595919881224" />
     <state width="2005" height="374" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1595682866692" />
     <state width="2005" height="374" key="GridCell.Tab.1.bottom" timestamp="1595682866693">
       <screen x="0" y="0" width="2048" height="1112" />
@@ -504,10 +512,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="434" y="251" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1595339904979" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1595892479662">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="515" y="180" width="672" height="503" key="search.everywhere.popup" timestamp="1595920378422">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="515" y="180" width="672" height="503" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595816005978" />
+    <state x="515" y="180" width="672" height="503" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595920378422" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1595892479662" />
   </component>
   <component name="XDebuggerManager">
