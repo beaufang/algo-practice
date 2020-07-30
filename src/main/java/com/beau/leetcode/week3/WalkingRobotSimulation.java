@@ -34,12 +34,12 @@ public class WalkingRobotSimulation {
                     int nextY = y + directions[direction][1];
                     // 被障碍物拦截
                     if (set.contains(nextX + "," + nextY)) {
-                       break;
+                        break;
                     }
                     // 更新坐标和距离
                     x = nextX;
                     y = nextY;
-                    ans = Math.max(ans, x*x + y*y);
+                    ans = Math.max(ans, x * x + y * y);
                 }
             } else {
                 // 更新方向
