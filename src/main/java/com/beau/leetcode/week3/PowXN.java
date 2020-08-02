@@ -1,5 +1,7 @@
 package com.beau.leetcode.week3;
 
+import org.junit.Test;
+
 /**
  * @author BeauFang
  * Date: 2020/7/28

@@ -32,7 +32,7 @@ public class FindMinimumInRotatedSortedArray {
 
 
     // 二分搜索旋转点
-    public int findMin(int[] nums) {
+    public int findMin2(int[] nums) {
         int len = nums.length;
         if (len == 1) {
             return nums[0];
@@ -46,7 +46,7 @@ public class FindMinimumInRotatedSortedArray {
         while (left <= right) {
             int mid = left + (right - left) / 2;
             // 如果 mid 不是旋转点，则 mid 附件一定满足升序的条件
-            // mid 附件发生逆序，因此，mid 就是旋转点
+            // mid 附近发生逆序，因此，mid 就是旋转点
             if (nums[mid] > nums[mid + 1]) {
                 return nums[mid + 1];
             }
@@ -64,7 +64,7 @@ public class FindMinimumInRotatedSortedArray {
     }
 
     // 递归二分搜索
-    public int findMin2(int[] nums) {
+    public int findMin(int[] nums) {
         return findMinHelper(nums, 0, nums.length - 1);
     }
 

@@ -22,8 +22,8 @@ public class NaryTreePostorderTraversal {
         while (!stack.isEmpty()) {
             Node node = stack.pollLast();
             ans.addFirst(node.val);
-            for (Node n : node.children) {
-                stack.addLast(n);
+            if (node.children != null) {
+                stack.addAll(node.children);
             }
         }
         return ans;
