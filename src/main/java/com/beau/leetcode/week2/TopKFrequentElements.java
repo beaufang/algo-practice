@@ -40,6 +40,7 @@ public class TopKFrequentElements {
                 priorityQueue.poll();
             }
         });
+        // 题目说可以按任意顺序返回，所以实际上没必要按顺序排
         int[] ans = new int[k];
         for (int i = k - 1; i >= 0; i--) {
             ans[i] = priorityQueue.poll();
