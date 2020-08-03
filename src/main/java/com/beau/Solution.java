@@ -1,35 +1,46 @@
 package com.beau;
 
-import junit.framework.TestCase;
 import org.junit.Test;
 
 public class Solution {
 
-   public int search(int[] nums) {
-      int l = 0, r = nums.length - 1;
-      while (l <= r) {
-          int mid = l + (r - l + 1) / 2;
-          // 发生了逆序
-          if (nums[mid] <= nums[0] && nums[mid] <= nums[mid - 1]) {
-              return mid;
-          }
-          // 如果在 0  ->  mid, 中 nums[mid] 不是最小的，说明分界点靠右
-          if (nums[mid] > nums[0]) {
-              // 分界点靠右
-              l = mid + 1;
-          } else {
-              r = mid - 1;
-          }
-      }
-      return l;
-   }
 
-   @Test
+    public int numDecodings(String s) {
+        int len = s.length();
+        if (len == 0) {
+            return 0;
+        }
+
+        // dp[i] 以 s[i - 1] 结尾的前缀子串有多少种解法方法
+        // dp[i] = dp[i - 1] * 1 if nums[i - 1] != '0'
+        // dp[i] += dp[i - 2] * 1 if  10 <= int(s[i - 2..i - 1]) <= 26
+
+        int[] dp = new int[len + 1];
+        dp[0] = 1;
+        char[] charArray = s.toCharArray();
+        if (charArray[0] == '0') {
+            return 0;
+        }
+        dp[1] = 1;
+
+        for (int i = 1; i < len; i++) {
+            if (charArray[i] != '0') {
+                dp[i + 1] = dp[i];
+            }
+
+            int num = 10 * (charArray[i - 1] - '0') + (charArray[i] - '0');
+            if (num >= 10 && num <= 26) {
+                dp[i + 1] += dp[i - 1];
+            }
+        }
+        return dp[len];
+    }
+
+
+
+
+    @Test
     public void test() {
-       TestCase.assertEquals(4, search(new int[] {4, 5, 6, 7, 0, 1, 2}));
-       TestCase.assertEquals(2, search(new int[] {4, 5, 1}));
-       TestCase.assertEquals(2, search(new int[] {4, 5, 6}));
-       // 完全逆序，这种情况处理不了
-//       TestCase.assertEquals(0, search(new int[] {6, 5, 4}));
-   }
+        System.out.println(numDecodings("100"));;
+    }
 }
