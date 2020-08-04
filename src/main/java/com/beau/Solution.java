@@ -37,10 +37,31 @@ public class Solution {
     }
 
 
+    public int leftBound(int[] nums, int target) {
+        int left = 0, right = nums.length;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
+                right = mid;
+            }
+            if (nums[mid] > target) {
+                right = mid;
+            }
+            if (nums[mid] < target) {
+                left = mid + 1;
+            }
+        }
+        if (left == nums.length || nums[left] != target) {
+            return -1;
+        }
+        return left;
+    }
 
 
     @Test
     public void test() {
-        System.out.println(numDecodings("100"));;
+        System.out.println(leftBound(new int[] {1, 1, 2, 2, 3}, 2));
+        System.out.println(leftBound(new int[] {1, 2, 2, 2, 3}, 0));
+        System.out.println(leftBound(new int[] {1, 2, 2, 2, 3}, 4));
     }
 }
