@@ -69,7 +69,7 @@ public class FindMinimumInRotatedSortedArray {
     }
 
     private int findMinHelper(int[] nums, int from, int to) {
-        // 如果只有一个元素
+        // 如果只有一个元素，注意要取到小于号，因为 to 可能小于 from
         if (to - from <= 0) {
             return nums[from];
         }

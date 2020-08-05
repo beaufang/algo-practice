@@ -2,66 +2,57 @@ package com.beau;
 
 import org.junit.Test;
 
-public class Solution {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
-
-    public int numDecodings(String s) {
-        int len = s.length();
-        if (len == 0) {
-            return 0;
+class Solution {
+    public List<List<String>> solveNQueens(int n) {
+        char[][] grid = new char[n][n];
+        for (char[] g : grid) {
+            Arrays.fill(g, '.');
         }
+        List<List<String>> ans = new ArrayList<>();
+        dfs(grid, n, 0, ans);
+        return ans;
 
-        // dp[i] 以 s[i - 1] 结尾的前缀子串有多少种解法方法
-        // dp[i] = dp[i - 1] * 1 if nums[i - 1] != '0'
-        // dp[i] += dp[i - 2] * 1 if  10 <= int(s[i - 2..i - 1]) <= 26
-
-        int[] dp = new int[len + 1];
-        dp[0] = 1;
-        char[] charArray = s.toCharArray();
-        if (charArray[0] == '0') {
-            return 0;
-        }
-        dp[1] = 1;
-
-        for (int i = 1; i < len; i++) {
-            if (charArray[i] != '0') {
-                dp[i + 1] = dp[i];
-            }
-
-            int num = 10 * (charArray[i - 1] - '0') + (charArray[i] - '0');
-            if (num >= 10 && num <= 26) {
-                dp[i + 1] += dp[i - 1];
-            }
-        }
-        return dp[len];
     }
 
-
-    public int leftBound(int[] nums, int target) {
-        int left = 0, right = nums.length;
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            if (nums[mid] == target) {
-                right = mid;
+    private void dfs(char[][] grid,int n, int level, List<List<String>> ans) {
+        if (level == n) {
+            List<String> list = new ArrayList<>();
+            for (char[] chs : grid) {
+                list.add(new String(chs));
             }
-            if (nums[mid] > target) {
-                right = mid;
-            }
-            if (nums[mid] < target) {
-                left = mid + 1;
-            }
+            ans.add(list);
+            return;
         }
-        if (left == nums.length || nums[left] != target) {
-            return -1;
+        for (int i = 0; i < n; i ++) {
+            if (!isValid(grid, level, i)) {
+                continue;
+            }
+            grid[level][i] = 'Q';
+            dfs(grid, n, level + 1, ans);
+            grid[level][i] = '.';
         }
-        return left;
     }
 
-
-    @Test
-    public void test() {
-        System.out.println(leftBound(new int[] {1, 1, 2, 2, 3}, 2));
-        System.out.println(leftBound(new int[] {1, 2, 2, 2, 3}, 0));
-        System.out.println(leftBound(new int[] {1, 2, 2, 2, 3}, 4));
+    private boolean isValid(char[][] grid, int row, int col) {
+        for (int i = 0; i < grid.length; i++) {
+            if (i != row && grid[i][col] == 'Q') {
+                return false;
+            }
+        }
+        for (int i = row - 1, j = col -1; i >= 0 && j >= 0; i--, j--) {
+            if (grid[i][j] == 'Q') {
+                return false;
+            }
+        }
+        for (int i = row -1, j = col + 1; i >= 0 && j < grid[0].length; i--, j++) {
+            if (grid[i][j] == 'Q') {
+                return false;
+            }
+        }
+        return true;
     }
 }

@@ -34,7 +34,7 @@ public class NQueens {
         }
         for (int i = 0; i < grid[0].length; i++) {
             // 检查是否可以放入 Queen
-            if (!canPut(grid, row, i)) {
+            if (!isValid(grid, row, i)) {
                 continue;
             }
             grid[row][i] = 'Q';
@@ -43,6 +43,27 @@ public class NQueens {
         }
     }
 
+    // 只需要检测左上角、右上角和列
+    private boolean isValid(char[][] grid, int row, int col) {
+        for (int i = 0; i < row; i++) {
+            if (grid[i][col] == 'Q') {
+                return false;
+            }
+        }
+        for (int i = row - 1, j = col -1; i >= 0 && j >= 0; i--, j--) {
+            if (grid[i][j] == 'Q') {
+                return false;
+            }
+        }
+        for (int i = row -1, j = col + 1; i >= 0 && j < grid[0].length; i--, j++) {
+            if (grid[i][j] == 'Q') {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    // 对角线检测
     private boolean canPut(char[][] grid, int row, int col) {
         // 行肯定不会攻击，检查所在的列
         for (int i = 0; i < grid.length; i++) {
