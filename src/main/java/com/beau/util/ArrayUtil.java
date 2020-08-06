@@ -9,21 +9,21 @@ import java.util.Arrays;
 public class ArrayUtil {
 
     public static void print2DArray(int[][] arr) {
-        StringBuilder sb = new StringBuilder("[ ");
+        StringBuilder sb = new StringBuilder("[");
+        sb.append("\r\n");
         for (int[] a : arr) {
             sb.append(Arrays.toString(a)).append("\r\n");
         }
-        sb.setLength(sb.length() - 2);
         sb.append(" ]");
         System.out.println(sb.toString());
     }
 
     public static void print2DArray(boolean[][] arr) {
         StringBuilder sb = new StringBuilder("[ ");
+        sb.append("\r\n");
         for (boolean[] a : arr) {
             sb.append(Arrays.toString(a)).append("\r\n");
         }
-        sb.setLength(sb.length() - 2);
         sb.append(" ]");
         System.out.println(sb.toString());
     }
@@ -31,10 +31,10 @@ public class ArrayUtil {
 
     public static <T> void print2DArray(T[][] arr ) {
         StringBuilder sb = new StringBuilder("[ ");
+        sb.append("\r\n");
         for (Object[] a : arr) {
             sb.append(Arrays.toString(a)).append("\r\n");
         }
-        sb.setLength(sb.length() - 2);
         sb.append(" ]");
         System.out.println(sb.toString());
     }
