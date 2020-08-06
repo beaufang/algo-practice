@@ -1,5 +1,8 @@
 package com.beau.leetcode.week4;
 
+import junit.framework.TestCase;
+import org.junit.Test;
+
 /**
  * @author BeauFang
  * Date: 2020/8/5
@@ -69,5 +72,11 @@ public class PalindromicSubstrings {
             }
         }
         return ans;
+    }
+
+    @Test
+    public void test() {
+        TestCase.assertEquals(3, countSubstrings("aa"));
+        TestCase.assertEquals(6, countSubstrings("aaa"));
     }
 }

@@ -83,11 +83,11 @@ public class WordLadderII {
             }
             // 如果找到了，直接跳出，因为后面的层路径肯定比当前找到的路径长
             if (found) {
-                break;
+                return true;
             }
             visited.addAll(nextLevel);
         }
-        return found;
+        return false;
     }
 
     private void dfs(String beginWord, String endWord, LinkedList<String> path, List<List<String>> ans, Map<String, Set<String>> map) {

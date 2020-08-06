@@ -17,7 +17,7 @@ public class TaskScheduler {
         Arrays.sort(map);
         int maxCount = map[25] - 1;
         int idle = n * maxCount;
-        for (int i = 24; i >= 0 && map[i] > 0; i--) {
+        for (int i = 24; i >= 0; i--) {
             idle -= Math.min(map[i], maxCount);
         }
         return idle > 0 ? tasks.length + idle : tasks.length;
