@@ -1,6 +1,5 @@
 package com.beau.leetcode.week4;
 
-import com.beau.util.ArrayUtil;
 import junit.framework.TestCase;
 import org.junit.Test;
 
