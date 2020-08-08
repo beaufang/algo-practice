@@ -24,18 +24,18 @@ public class MaxSumOfRectangleNoLargerThanK {
      * @return
      */
     public int maxSumSubmatrix(int[][] matrix, int k) {
-        int m = matrix.length + 1, n = matrix[0].length + 1, max = Integer.MIN_VALUE;
-        for (int x1 = 1; x1 < m; x1++) {
-            for (int y1 = 1; y1 < n; y1++) {
-                // 每次重新创建一个 dp 数组，只保留该左上角矩形的状态
-                int[][] dp = new int[m][n];
-                for (int x2 = x1; x2 < m; x2++) {
-                    for (int y2 = y1; y2 < n; y2++) {
-                        dp[x2][y2] = matrix[x2 - 1][y2 - 1] + dp[x2 - 1][y2] + dp[x2][y2 - 1] - dp[x2 - 1][y2 - 1];
+        int m = matrix.length, n = matrix[0].length;
+        int max = Integer.MIN_VALUE;
+        for (int x1 = 1; x1 <= m; x1++) {
+            for (int y1 = 1; y1 <= n; y1++) {
+                // 每次重新创建一个
+                int[][] dp = new int[m + 1][n + 1];
+                for (int x2 = x1; x2 <= m; x2++) {
+                    for (int y2 = y1; y2 <= n; y2++) {
+                        dp[x2][y2] = matrix[x2 - 1][y2 - 1] + dp[x2 - 1][y2] + dp[x2][y2 - 1] -dp[x2 - 1][y2 - 1];
                         if (dp[x2][y2] <= k && dp[x2][y2] > max) {
                             max = dp[x2][y2];
                         }
-                        // 提前终止
                         if (max == k) {
                             return max;
                         }

@@ -1,58 +1,46 @@
 package com.beau;
 
-import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 class Solution {
-    public List<List<String>> solveNQueens(int n) {
-        char[][] grid = new char[n][n];
-        for (char[] g : grid) {
-            Arrays.fill(g, '.');
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        Set<String> wordSet = new HashSet<>(wordList);
+        if (!wordSet.contains(endWord)) {
+            return 0;
         }
-        List<List<String>> ans = new ArrayList<>();
-        dfs(grid, n, 0, ans);
-        return ans;
-
-    }
-
-    private void dfs(char[][] grid,int n, int level, List<List<String>> ans) {
-        if (level == n) {
-            List<String> list = new ArrayList<>();
-            for (char[] chs : grid) {
-                list.add(new String(chs));
+        Set<String> visited = new HashSet<>();
+        Queue<String> queue = new LinkedList<>();
+        int step = 1;
+        queue.add(beginWord);
+        visited.add(beginWord);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            Set<String> nextLevel = new HashSet<>();
+            for (int i = 0; i < size; i++) {
+                String word = queue.poll();
+                char[] chs = word.toCharArray();
+                for(int j = 0; j < chs.length; j++) {
+                    char old = chs[j];
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        if (c == old) continue;
+                        chs[j] = c;
+                        String newWord = new String(chs);
+                        if (!visited.contains(newWord) && wordSet.contains(newWord)) {
+                            if (endWord.equals(newWord)) {
+                                return step + 1;
+                            }
+                            if (!nextLevel.contains(newWord)) {
+                                queue.offer(newWord);
+                                nextLevel.add(newWord);
+                            }
+                        }
+                    }
+                    chs[j] = old;
+                }
             }
-            ans.add(list);
-            return;
+            visited.addAll(nextLevel);
+            step++;
         }
-        for (int i = 0; i < n; i ++) {
-            if (!isValid(grid, level, i)) {
-                continue;
-            }
-            grid[level][i] = 'Q';
-            dfs(grid, n, level + 1, ans);
-            grid[level][i] = '.';
-        }
-    }
-
-    private boolean isValid(char[][] grid, int row, int col) {
-        for (int i = 0; i < grid.length; i++) {
-            if (i != row && grid[i][col] == 'Q') {
-                return false;
-            }
-        }
-        for (int i = row - 1, j = col -1; i >= 0 && j >= 0; i--, j--) {
-            if (grid[i][j] == 'Q') {
-                return false;
-            }
-        }
-        for (int i = row -1, j = col + 1; i >= 0 && j < grid[0].length; i--, j++) {
-            if (grid[i][j] == 'Q') {
-                return false;
-            }
-        }
-        return true;
+        return 0;
     }
 }
