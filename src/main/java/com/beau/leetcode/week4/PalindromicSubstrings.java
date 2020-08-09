@@ -18,7 +18,7 @@ public class PalindromicSubstrings {
         if (len == 1) {
             return 1;
         }
-        // 索引 i->j 之间的字符串是否为回文串
+        // 第 i->j 之间的字符串是否为回文串
         boolean[][] dp = new boolean[len][len];
         int ans = 0;
         // 注意填表顺序
@@ -28,7 +28,7 @@ public class PalindromicSubstrings {
                 // case2: i 和 j 相等，去掉 i 和 j 依然回文，s(i,j) 肯定回文
                 // case3: i 和 j 相等，只有两个字符，肯定回文
                 // 注意括号
-                if (j - i == 0 || s.charAt(i) == s.charAt(j) && (dp[i+1][j-1] || j - i == 1)) {
+                if (i == j || s.charAt(i) == s.charAt(j) && (dp[i+1][j-1] || j - i == 1)) {
                     dp[i][j] = true;
                     ans++;
                 }
