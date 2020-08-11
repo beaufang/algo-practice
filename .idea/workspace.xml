@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="字典树">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/FriendCircles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/template/UnionFind.java" afterDir="false" />
+    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/ValidateBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/NumberOf1Bits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/PowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/ReverseBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/template/AStar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/FindMinimumInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/FindMinimumInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week4/FrogJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week4/FrogJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week4/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week4/MinimumWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/template/BinBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/template/BinBFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +94,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.beau.leetcode.week5" />
       <recent name="com.beau.common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -94,7 +103,7 @@
       <recent name="D:\workplace\practice\algo-practice\src\main\java\com\beau\base" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SudokuSolver">
+  <component name="RunManager" selected="JUnit.FindMinimumInRotatedSortedArray.test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.beau.Main" />
       <module name="algo-practice" />
@@ -108,33 +117,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BastTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinBFS.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.*" />
+          <option name="PATTERN" value="com.beau.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.BastTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.beau.template" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.template.BinBFS" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumPathSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMinimumInRotatedSortedArray.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.week4.*" />
+          <option name="PATTERN" value="com.beau.leetcode.week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau.leetcode.week4" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week4.MinimumPathSum" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.beau.leetcode.week3" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week3.FindMinimumInRotatedSortedArray" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerOfTwo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beau.leetcode.week5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.beau.leetcode.week5" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week5.PowerOfTwo" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,29 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuSolver.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.week5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.beau.leetcode.week5" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week5.SudokuSolver" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SudokuSolver" />
-        <item itemvalue="JUnit.SudokuSolver.test" />
-        <item itemvalue="JUnit.BastTest.test2" />
+        <item itemvalue="JUnit.FindMinimumInRotatedSortedArray.test" />
+        <item itemvalue="JUnit.PowerOfTwo.test" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.MinimumPathSum" />
+        <item itemvalue="JUnit.BinBFS.test" />
+        <item itemvalue="JUnit.SudokuSolver" />
       </list>
     </recent_temporary>
   </component>
@@ -236,14 +246,8 @@
       <workItem from="1596851932822" duration="11748000" />
       <workItem from="1596932572893" duration="1159000" />
       <workItem from="1596934883539" duration="12978000" />
-      <workItem from="1597013421175" duration="6971000" />
-    </task>
-    <task id="LOCAL-00006" summary="MyCircularDeque">
-      <created>1594942186561</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1594942186561</updated>
+      <workItem from="1597013421175" duration="11359000" />
+      <workItem from="1597099103095" duration="17621000" />
     </task>
     <task id="LOCAL-00007" summary="GroupAnagrams">
       <created>1594947888614</created>
@@ -581,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597025087680</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="解数独">
+      <created>1597049211142</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1597049211142</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +612,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="子集" />
     <MESSAGE value="电话号码" />
     <MESSAGE value="单词接龙" />
     <MESSAGE value="岛屿的数量" />
@@ -626,7 +636,8 @@
     <MESSAGE value="最小覆盖子串" />
     <MESSAGE value="戳气球" />
     <MESSAGE value="字典树" />
-    <option name="LAST_COMMIT_MESSAGE" value="字典树" />
+    <MESSAGE value="解数独" />
+    <option name="LAST_COMMIT_MESSAGE" value="解数独" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
@@ -670,46 +681,46 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594888453718" />
     <state x="732" y="225" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1596809247735" />
-    <state width="2004" height="229" key="GridCell.Tab.0.bottom" timestamp="1597049153598">
+    <state width="2004" height="264" key="GridCell.Tab.0.bottom" timestamp="1597141730295">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597049153598" />
-    <state width="2004" height="229" key="GridCell.Tab.0.center" timestamp="1597049153598">
+    <state width="2004" height="264" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730295" />
+    <state width="2004" height="264" key="GridCell.Tab.0.center" timestamp="1597141730294">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597049153598" />
-    <state width="2004" height="229" key="GridCell.Tab.0.left" timestamp="1597049153598">
+    <state width="2004" height="264" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730294" />
+    <state width="2004" height="264" key="GridCell.Tab.0.left" timestamp="1597141730294">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596792668100" />
-    <state width="2004" height="229" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597049153598" />
-    <state width="2004" height="229" key="GridCell.Tab.0.right" timestamp="1597049153598">
+    <state width="2004" height="264" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730294" />
+    <state width="2004" height="264" key="GridCell.Tab.0.right" timestamp="1597141730295">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597049153598" />
-    <state width="2004" height="264" key="GridCell.Tab.1.bottom" timestamp="1596981542057">
+    <state width="2004" height="264" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730295" />
+    <state width="2004" height="264" key="GridCell.Tab.1.bottom" timestamp="1597141730797">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1596981542057" />
-    <state width="2004" height="264" key="GridCell.Tab.1.center" timestamp="1596981542057">
+    <state width="2004" height="264" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730797" />
+    <state width="2004" height="264" key="GridCell.Tab.1.center" timestamp="1597141730797">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1596981542057" />
-    <state width="2004" height="264" key="GridCell.Tab.1.left" timestamp="1596981542057">
+    <state width="2004" height="264" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730797" />
+    <state width="2004" height="264" key="GridCell.Tab.1.left" timestamp="1597141730796">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1596981542057" />
-    <state width="2004" height="264" key="GridCell.Tab.1.right" timestamp="1596981542057">
+    <state width="2004" height="264" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730796" />
+    <state width="2004" height="264" key="GridCell.Tab.1.right" timestamp="1597141730797">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1596981542057" />
+    <state width="2004" height="264" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730797" />
     <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1596024188386">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -723,20 +734,20 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1596936650081" />
-    <state x="599" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1597013421211">
+    <state x="599" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1597099596712">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596071263010" />
-    <state x="599" y="318" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1597013421211" />
+    <state x="599" y="318" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1597099596712" />
     <state x="434" y="251" key="new project wizard" timestamp="1596634019255">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="434" y="251" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1596634019255" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1596944817164">
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1597140334370">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="515" y="180" width="672" height="503" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596786554723" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1596944817164" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1597140334370" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -760,6 +771,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/LongestPalindromicSubstring.java</url>
           <line>14</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/FindMinimumInRotatedSortedArray.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

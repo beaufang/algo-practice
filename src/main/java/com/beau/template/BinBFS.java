@@ -26,8 +26,8 @@ public class BinBFS {
                 q1 = q2;
                 q2 = tmp;
             }
-            // 用于存储当前层的节点
-            Set<Node> level = new HashSet<>();
+            // 用于存储下一层的节点
+            Set<Node> nextLevel = new HashSet<>();
             for (Node cur : q1) {
                 // 两端相交
                 if (q2.contains(cur)) {
@@ -36,17 +36,16 @@ public class BinBFS {
                 if (cur.children == null) {
                     continue;
                 }
-                visited.add(cur);
                 for (Node child : cur.children) {
                     if (!visited.contains(child)) {
-                        level.add(child);
+                        nextLevel.add(child);
                         visited.add(child);
                     }
                 }
             }
             step++;
             // 注意是直接覆盖
-            q1 = level;
+            q1 = nextLevel;
         }
         return -1;
     }

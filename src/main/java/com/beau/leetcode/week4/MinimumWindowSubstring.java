@@ -34,7 +34,7 @@ public class MinimumWindowSubstring {
             // 判断窗口是否需要收缩
             while (valid == needed.size()) {
                 // 更新覆盖子串为更小的长度
-                if (right - left< len) {
+                if (right - left < len) {
                     start = left;
                     len = right - left;
                 }

@@ -30,13 +30,12 @@ public class FrogJump {
         for (int stone : stones) {
             for (int k : map.get(stone)) {
                 // 分别跳 k-1, k, k+1 步
-                for (int j = -1; j < 2; j++) {
-                    int step = k + j;
+                for (int step = k - 1; step <= k + 1; step++) {
                     int nextStone = stone + step;
-                    if (nextStone == stones[stones.length - 1]) {
-                        return true;
-                    }
                     if (step > 0 && map.containsKey(nextStone)) {
+                        if (nextStone == stones[stones.length - 1]) {
+                            return true;
+                        }
                         map.get(nextStone).add(step);
                     }
                 }

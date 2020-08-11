@@ -63,13 +63,14 @@ public class FindMinimumInRotatedSortedArray {
         return -1;
     }
 
-    // 递归二分搜索
+    // 递归二分搜索（我个人推荐）
     public int findMin(int[] nums) {
         return findMinHelper(nums, 0, nums.length - 1);
     }
 
     private int findMinHelper(int[] nums, int from, int to) {
         // 如果只有一个元素，注意要取到小于号，因为 to 可能小于 from
+        // 如 [2,3,4,5,1] 这种情况
         if (to - from <= 0) {
             return nums[from];
         }
@@ -97,5 +98,7 @@ public class FindMinimumInRotatedSortedArray {
         TestCase.assertEquals(1, findMin(new int[]{1, 2, 3}));
         TestCase.assertEquals(1, findMin(new int[]{3, 1, 2}));
         TestCase.assertEquals(1, findMin(new int[]{3, 2, 1}));
+        TestCase.assertEquals(1, findMin(new int[]{4, 3, 2, 1}));
+        TestCase.assertEquals(1, findMin(new int[]{1}));
     }
 }
