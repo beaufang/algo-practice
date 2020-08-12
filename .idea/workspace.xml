@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/ValidateBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/NumberOf1Bits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/PowerOfTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/ReverseBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/template/AStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/algo-practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/NQueensII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/FindMinimumInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/FindMinimumInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week4/FrogJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week4/FrogJump.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week4/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week4/MinimumWindowSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/template/BinBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/template/BinBFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +39,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="algo-practice" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -56,18 +49,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="11a8b59c-6c3e-48e6-838f-ab60d8930619" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\software\maven\mavenrepo" />
-        <option name="mavenHome" value="D:/software/maven/apache-maven-3.6.1" />
+        <option name="mavenHome" value="D:\software\maven\apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\software\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -76,7 +65,6 @@
   <component name="ProjectId" id="1ecDleKbSRni9EYL6rbqWsve3F2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -90,7 +78,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -103,7 +91,7 @@
       <recent name="D:\workplace\practice\algo-practice\src\main\java\com\beau\base" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindMinimumInRotatedSortedArray.test">
+  <component name="RunManager" selected="JUnit.NQueensII.test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.beau.Main" />
       <module name="algo-practice" />
@@ -113,6 +101,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,6 +148,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NQueensII.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beau.leetcode.week5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.beau.leetcode.week5" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week5.NQueensII" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PowerOfTwo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
@@ -165,31 +180,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuSolver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.week5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.beau.leetcode.week5" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week5.SudokuSolver" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NQueensII.test" />
         <item itemvalue="JUnit.FindMinimumInRotatedSortedArray.test" />
         <item itemvalue="JUnit.PowerOfTwo.test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BinBFS.test" />
-        <item itemvalue="JUnit.SudokuSolver" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -247,14 +248,9 @@
       <workItem from="1596932572893" duration="1159000" />
       <workItem from="1596934883539" duration="12978000" />
       <workItem from="1597013421175" duration="11359000" />
-      <workItem from="1597099103095" duration="17621000" />
-    </task>
-    <task id="LOCAL-00007" summary="GroupAnagrams">
-      <created>1594947888614</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1594947888614</updated>
+      <workItem from="1597099103095" duration="18262000" />
+      <workItem from="1597185968694" duration="257000" />
+      <workItem from="1597186498380" duration="3242000" />
     </task>
     <task id="LOCAL-00008" summary="TrappingRainWater">
       <created>1595042778836</created>
@@ -592,27 +588,32 @@
       <option name="project" value="LOCAL" />
       <updated>1597049211142</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="位运算">
+      <created>1597142203665</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1597142203665</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="电话号码" />
     <MESSAGE value="单词接龙" />
     <MESSAGE value="岛屿的数量" />
     <MESSAGE value="搜索旋转数组" />
@@ -637,7 +638,8 @@
     <MESSAGE value="戳气球" />
     <MESSAGE value="字典树" />
     <MESSAGE value="解数独" />
-    <option name="LAST_COMMIT_MESSAGE" value="解数独" />
+    <MESSAGE value="位运算" />
+    <option name="LAST_COMMIT_MESSAGE" value="位运算" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
@@ -663,15 +665,19 @@
     </state>
     <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1595403273427" />
     <state x="819" y="406" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1595460240932" />
+    <state x="705" y="291" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1597185988002">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="705" y="291" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1597185988002" />
     <state x="449" y="71" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1594627491113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="71" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1536.824@0.0.1536.824" timestamp="1594627491113" />
-    <state x="628" y="148" key="CommitChangelistDialog2" timestamp="1597049209201">
+    <state x="628" y="148" key="CommitChangelistDialog2" timestamp="1597142200673">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="466" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596782480835" />
-    <state x="628" y="148" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1597049209201" />
+    <state x="628" y="148" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1597142200673" />
     <state x="198" y="94" key="DiffContextDialog" timestamp="1594770786828">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -681,64 +687,64 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594888453718" />
     <state x="732" y="225" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1596809247735" />
-    <state width="2004" height="264" key="GridCell.Tab.0.bottom" timestamp="1597141730295">
+    <state width="2004" height="229" key="GridCell.Tab.0.bottom" timestamp="1597193652847">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="264" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730295" />
-    <state width="2004" height="264" key="GridCell.Tab.0.center" timestamp="1597141730294">
+    <state width="2004" height="229" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597193652847" />
+    <state width="2004" height="229" key="GridCell.Tab.0.center" timestamp="1597193652847">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="264" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730294" />
-    <state width="2004" height="264" key="GridCell.Tab.0.left" timestamp="1597141730294">
+    <state width="2004" height="229" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597193652847" />
+    <state width="2004" height="229" key="GridCell.Tab.0.left" timestamp="1597193652847">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596792668100" />
-    <state width="2004" height="264" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730294" />
-    <state width="2004" height="264" key="GridCell.Tab.0.right" timestamp="1597141730295">
+    <state width="2004" height="229" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597193652847" />
+    <state width="2004" height="229" key="GridCell.Tab.0.right" timestamp="1597193652847">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="264" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730295" />
-    <state width="2004" height="264" key="GridCell.Tab.1.bottom" timestamp="1597141730797">
+    <state width="2004" height="229" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597193652847" />
+    <state width="2004" height="264" key="GridCell.Tab.1.bottom" timestamp="1597192923515">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730797" />
-    <state width="2004" height="264" key="GridCell.Tab.1.center" timestamp="1597141730797">
+    <state width="2004" height="264" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597192923515" />
+    <state width="2004" height="264" key="GridCell.Tab.1.center" timestamp="1597192923515">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730797" />
-    <state width="2004" height="264" key="GridCell.Tab.1.left" timestamp="1597141730796">
+    <state width="2004" height="264" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597192923515" />
+    <state width="2004" height="264" key="GridCell.Tab.1.left" timestamp="1597192923515">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730796" />
-    <state width="2004" height="264" key="GridCell.Tab.1.right" timestamp="1597141730797">
+    <state width="2004" height="264" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597192923515" />
+    <state width="2004" height="264" key="GridCell.Tab.1.right" timestamp="1597192923515">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597141730797" />
+    <state width="2004" height="264" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597192923515" />
     <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1596024188386">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="555" y="211" key="Maven.ArtifactSearchDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1596024188386" />
-    <state x="332" y="0" width="1332" height="715" key="SettingsEditor" timestamp="1596764842854">
+    <state x="332" y="0" width="1332" height="715" key="SettingsEditor" timestamp="1597191515913">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595403289500" />
-    <state x="332" y="0" width="1332" height="715" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1596764842854" />
+    <state x="332" y="0" width="1332" height="715" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1597191515913" />
     <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596936650081">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1596936650081" />
-    <state x="599" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1597099596712">
+    <state x="599" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1597185971259">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596071263010" />
-    <state x="599" y="318" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1597099596712" />
+    <state x="599" y="318" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1597185971259" />
     <state x="434" y="251" key="new project wizard" timestamp="1596634019255">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
