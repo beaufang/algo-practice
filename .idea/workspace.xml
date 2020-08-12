@@ -3,15 +3,29 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/oferr/Fib_Off10_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/SurroundedRegions.java" afterDir="false" />
+    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="被围绕的区域">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/ValidSudoku.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/NQueens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/util/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/util/ArrayUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/beau/BastTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/beau/BastTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/JumpGameII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/JumpGameII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +108,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.SurroundedRegions.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,14 +271,8 @@
       <workItem from="1597013421175" duration="11359000" />
       <workItem from="1597099103095" duration="18262000" />
       <workItem from="1597185968694" duration="257000" />
-      <workItem from="1597186498380" duration="12206000" />
-    </task>
-    <task id="LOCAL-00009" summary="修改目录">
-      <created>1595161316093</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1595161316093</updated>
+      <workItem from="1597186498380" duration="15504000" />
+      <workItem from="1597273822770" duration="1627000" />
     </task>
     <task id="LOCAL-00010" summary="20 有效括号">
       <created>1595208535247</created>
@@ -600,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597194162937</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="被围绕的区域">
+      <created>1597216496447</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1597216496447</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +636,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="岛屿的数量" />
     <MESSAGE value="搜索旋转数组" />
     <MESSAGE value="跳跃游戏" />
     <MESSAGE value="扫雷" />
@@ -644,7 +660,8 @@
     <MESSAGE value="解数独" />
     <MESSAGE value="位运算" />
     <MESSAGE value="N-Queens 位运算解法" />
-    <option name="LAST_COMMIT_MESSAGE" value="N-Queens 位运算解法" />
+    <MESSAGE value="被围绕的区域" />
+    <option name="LAST_COMMIT_MESSAGE" value="被围绕的区域" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
@@ -678,11 +695,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="71" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1536.824@0.0.1536.824" timestamp="1594627491113" />
-    <state x="628" y="148" key="CommitChangelistDialog2" timestamp="1597194160820">
+    <state x="628" y="148" key="CommitChangelistDialog2" timestamp="1597216483740">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="466" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596782480835" />
-    <state x="628" y="148" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1597194160820" />
+    <state x="628" y="148" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1597216483740" />
     <state x="198" y="94" key="DiffContextDialog" timestamp="1594770786828">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -692,46 +709,46 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594888453718" />
     <state x="732" y="225" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1596809247735" />
-    <state width="2004" height="229" key="GridCell.Tab.0.bottom" timestamp="1597216278148">
+    <state width="2004" height="264" key="GridCell.Tab.0.bottom" timestamp="1597225529174">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597216278148" />
-    <state width="2004" height="229" key="GridCell.Tab.0.center" timestamp="1597216278147">
+    <state width="2004" height="264" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597225529174" />
+    <state width="2004" height="264" key="GridCell.Tab.0.center" timestamp="1597225529174">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597216278147" />
-    <state width="2004" height="229" key="GridCell.Tab.0.left" timestamp="1597216278147">
+    <state width="2004" height="264" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597225529174" />
+    <state width="2004" height="264" key="GridCell.Tab.0.left" timestamp="1597225529174">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596792668100" />
-    <state width="2004" height="229" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597216278147" />
-    <state width="2004" height="229" key="GridCell.Tab.0.right" timestamp="1597216278148">
+    <state width="2004" height="264" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597225529174" />
+    <state width="2004" height="264" key="GridCell.Tab.0.right" timestamp="1597225529174">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597216278148" />
-    <state width="2004" height="264" key="GridCell.Tab.1.bottom" timestamp="1597192923515">
+    <state width="2004" height="264" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597225529174" />
+    <state width="2004" height="264" key="GridCell.Tab.1.bottom" timestamp="1597225529174">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597192923515" />
-    <state width="2004" height="264" key="GridCell.Tab.1.center" timestamp="1597192923515">
+    <state width="2004" height="264" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597225529174" />
+    <state width="2004" height="264" key="GridCell.Tab.1.center" timestamp="1597225529174">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597192923515" />
-    <state width="2004" height="264" key="GridCell.Tab.1.left" timestamp="1597192923515">
+    <state width="2004" height="264" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597225529174" />
+    <state width="2004" height="264" key="GridCell.Tab.1.left" timestamp="1597225529174">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597192923515" />
-    <state width="2004" height="264" key="GridCell.Tab.1.right" timestamp="1597192923515">
+    <state width="2004" height="264" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597225529174" />
+    <state width="2004" height="264" key="GridCell.Tab.1.right" timestamp="1597225529174">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597192923515" />
+    <state width="2004" height="264" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597225529174" />
     <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1596024188386">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -754,11 +771,11 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="434" y="251" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1596634019255" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1597214344775">
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1597218627899">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="515" y="180" width="672" height="503" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596786554723" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1597214344775" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1597218627899" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,16 +12,16 @@ public class JumpGameII {
         if (nums == null || nums.length < 2) {
             return 0;
         }
-        int max = 0;
+        int maxReach = 0;
         int step = 0;
         // 框的右边界
         int end = 0;
         // 注意区间
         for (int i = 0; i < nums.length - 1; i++) {
-            max = Math.max(max, i + nums[i]);
+            maxReach = Math.max(maxReach, i + nums[i]);
             // 进入下一个框
             if (i == end) {
-                end = max;
+                end = maxReach;
                 step++;
             }
         }
