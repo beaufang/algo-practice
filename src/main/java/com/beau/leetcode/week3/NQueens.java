@@ -55,7 +55,7 @@ public class NQueens {
                 return false;
             }
         }
-        for (int i = row -1, j = col + 1; i >= 0 && j < grid[0].length; i--, j++) {
+        for (int i = row - 1, j = col + 1; i >= 0 && j < grid[0].length; i--, j++) {
             if (grid[i][j] == 'Q') {
                 return false;
             }

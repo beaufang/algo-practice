@@ -18,6 +18,16 @@ public class ArrayUtil {
         System.out.println(sb.toString());
     }
 
+    public static void print2DArray(char[][] arr) {
+        StringBuilder sb = new StringBuilder("[");
+        sb.append("\r\n");
+        for (char[] a : arr) {
+            sb.append(Arrays.toString(a)).append("\r\n");
+        }
+        sb.append(" ]");
+        System.out.println(sb.toString());
+    }
+
     public static void print2DArray(boolean[][] arr) {
         StringBuilder sb = new StringBuilder("[ ");
         sb.append("\r\n");

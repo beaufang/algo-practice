@@ -22,4 +22,26 @@ public class BastTest {
         map.put(1, Collections.singletonList(1));
         map.get(1).add(2);
     }
+
+
+    public int fib(int n) {
+        if (n == 0) {
+            return 0;
+        }
+        int p = 0, q = 0, l = 1;
+        for (int i = 1; i< n; i++) {
+            p = q;
+            q = l;
+            l = p + q;
+        }
+        return l;
+    }
+
+    @Test
+    public void testFib() {
+        System.out.println(fib(3));
+        System.out.println(fib(4));
+        System.out.println(fib(5));
+        System.out.println(fib(48));
+    }
 }
