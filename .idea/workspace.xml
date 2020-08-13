@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="被围绕的区域">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/ValidSudoku.java" afterDir="false" />
+    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="有效的数独">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/GenerateParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/JumpGameII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/JumpGameII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,14 +271,7 @@
       <workItem from="1597099103095" duration="18262000" />
       <workItem from="1597185968694" duration="257000" />
       <workItem from="1597186498380" duration="15504000" />
-      <workItem from="1597273822770" duration="1627000" />
-    </task>
-    <task id="LOCAL-00010" summary="20 有效括号">
-      <created>1595208535247</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1595208535257</updated>
+      <workItem from="1597273822770" duration="3038000" />
     </task>
     <task id="LOCAL-00011" summary="MinStack">
       <created>1595211024887</created>
@@ -617,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597216496447</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="有效的数独">
+      <created>1597276572366</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1597276572367</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,7 +635,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="搜索旋转数组" />
     <MESSAGE value="跳跃游戏" />
     <MESSAGE value="扫雷" />
     <MESSAGE value="搜索二维矩阵" />
@@ -661,7 +659,8 @@
     <MESSAGE value="位运算" />
     <MESSAGE value="N-Queens 位运算解法" />
     <MESSAGE value="被围绕的区域" />
-    <option name="LAST_COMMIT_MESSAGE" value="被围绕的区域" />
+    <MESSAGE value="有效的数独" />
+    <option name="LAST_COMMIT_MESSAGE" value="有效的数独" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
