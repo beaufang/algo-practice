@@ -39,13 +39,13 @@ public class BinBFS {
                 for (Node child : cur.children) {
                     if (!visited.contains(child)) {
                         nextLevel.add(child);
-                        visited.add(child);
                     }
                 }
             }
             step++;
             // 注意是直接覆盖
             q1 = nextLevel;
+            visited.addAll(nextLevel);
         }
         return -1;
     }

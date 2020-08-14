@@ -19,6 +19,7 @@ public class BFS {
         int step = 0;
         while (!queue.isEmpty()) {
             int size = queue.size();
+            Set<Node> nextLevel = new HashSet<>();
             for (int i = 0; i < size; i++) {
                 Node node = queue.poll();
                 if (node == target) {
@@ -28,10 +29,13 @@ public class BFS {
                     continue;
                 }
                 for (Node child : node.children) {
-                    queue.offer(child);
-                    visited.add(child);
+                    if (!visited.contains(child)) {
+                        nextLevel.add(child);
+                    }
                 }
             }
+            queue.addAll(nextLevel);
+            visited.addAll(nextLevel);
             step++;
         }
         return -1;
@@ -46,5 +50,6 @@ public class BFS {
         node.children.add(node2);
         node.children.add(node3);
         System.out.println(bfs(node, new Node()));
+        System.out.println(bfs(node, node3));
     }
 }
