@@ -22,8 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="乘积小于K的子数组">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/old/HammingDistance.java" afterDir="false" />
+    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="汉明距离">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,17 +106,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.HammingDistance.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BFS.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
@@ -270,14 +258,7 @@
       <workItem from="1597185968694" duration="257000" />
       <workItem from="1597186498380" duration="15504000" />
       <workItem from="1597273822770" duration="10529000" />
-      <workItem from="1597361407069" duration="15481000" />
-    </task>
-    <task id="LOCAL-00014" summary="二叉树的遍历">
-      <created>1595254890556</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1595254890556</updated>
+      <workItem from="1597361407069" duration="16703000" />
     </task>
     <task id="LOCAL-00015" summary="N 叉树层序遍历">
       <created>1595332011756</created>
@@ -615,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597395655157</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="汉明距离">
+      <created>1597396351519</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1597396351519</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +622,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="搜索旋转数组最小值" />
     <MESSAGE value="N 皇后问题" />
     <MESSAGE value="单词接龙II" />
     <MESSAGE value="最短路径" />
@@ -659,7 +646,8 @@
     <MESSAGE value="括号生成" />
     <MESSAGE value="比特位计数" />
     <MESSAGE value="乘积小于K的子数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="乘积小于K的子数组" />
+    <MESSAGE value="汉明距离" />
+    <option name="LAST_COMMIT_MESSAGE" value="汉明距离" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
