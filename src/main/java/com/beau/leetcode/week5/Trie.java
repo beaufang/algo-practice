@@ -7,7 +7,7 @@ package com.beau.leetcode.week5;
  */
 public class Trie {
 
-    private Trie[] next;
+    private final Trie[] next;
     private boolean isEnd;
 
     public Trie() {
