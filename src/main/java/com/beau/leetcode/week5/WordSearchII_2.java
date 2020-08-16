@@ -37,19 +37,19 @@ public class WordSearchII_2 {
 
     private void dfs(int i, int j,  List<String> res, Trie trie) {
         char origin = board[i][j];
-        Trie node = trie.next[origin - 'a'];
-        if (node == null) return;
-        if (node.word != null) {
-            res.add(node.word);
+        trie = trie.next[origin - 'a'];
+        if (trie == null) return;
+        if (trie.word != null) {
+            res.add(trie.word);
             // 将该节点的单词置空，防止结果重复
-            node.word = null;
+            trie.word = null;
         }
         board[i][j] = '@';
         for (int[] d : D) {
             int newI = i + d[0];
             int newJ = j + d[1];
             if (newI >= 0 && newI < board.length && newJ >= 0 && newJ < board[0].length && board[newI][newJ] != '@') {
-                dfs(newI, newJ, res, node);
+                dfs(newI, newJ, res, trie);
             }
         }
         board[i][j] = origin;

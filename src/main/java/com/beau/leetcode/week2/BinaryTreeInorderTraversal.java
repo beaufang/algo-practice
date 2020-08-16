@@ -36,14 +36,13 @@ public class BinaryTreeInorderTraversal {
 
     // 递归解法
     List<Integer> ans = new ArrayList<>();
-
     public List<Integer> inorderTraversal1(TreeNode root) {
         if (root == null) {
             return ans;
         }
-        inorderTraversal(root.left);
+        inorderTraversal1(root.left);
         ans.add(root.val);
-        inorderTraversal(root.right);
+        inorderTraversal1(root.right);
         return ans;
     }
 
