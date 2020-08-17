@@ -22,17 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="LRUCache">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/sort/BucketSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/sort/CountingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/sort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/sort/RadixSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/sort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/sort/ShellSort.java" afterDir="false" />
+    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="十大排序算法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/MergeIntervals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -292,14 +283,7 @@
       <workItem from="1597361407069" duration="16703000" />
       <workItem from="1597444808305" duration="11259000" />
       <workItem from="1597533574279" duration="5951000" />
-      <workItem from="1597619944342" duration="18520000" />
-    </task>
-    <task id="LOCAL-00018" summary="最近公共祖先">
-      <created>1595467729544</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1595467729544</updated>
+      <workItem from="1597619944342" duration="20827000" />
     </task>
     <task id="LOCAL-00019" summary="组合">
       <created>1595548054465</created>
@@ -637,7 +621,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597621578449</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="十大排序算法">
+      <created>1597658386396</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1597658386397</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,7 +647,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最短路径" />
     <MESSAGE value="解码方法" />
     <MESSAGE value="最大正方形" />
     <MESSAGE value="任务调度器" />
@@ -681,7 +671,8 @@
     <MESSAGE value="汉明距离" />
     <MESSAGE value="单词搜索II" />
     <MESSAGE value="LRUCache" />
-    <option name="LAST_COMMIT_MESSAGE" value="LRUCache" />
+    <MESSAGE value="十大排序算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="十大排序算法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
@@ -729,26 +720,26 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594888453718" />
     <state x="732" y="225" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1596809247735" />
-    <state width="2004" height="229" key="GridCell.Tab.0.bottom" timestamp="1597656369608">
+    <state width="2004" height="229" key="GridCell.Tab.0.bottom" timestamp="1597658193938">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597656369608" />
-    <state width="2004" height="229" key="GridCell.Tab.0.center" timestamp="1597656369607">
+    <state width="2004" height="229" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597658193938" />
+    <state width="2004" height="229" key="GridCell.Tab.0.center" timestamp="1597658193938">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597656369607" />
-    <state width="2004" height="229" key="GridCell.Tab.0.left" timestamp="1597656369607">
+    <state width="2004" height="229" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597658193938" />
+    <state width="2004" height="229" key="GridCell.Tab.0.left" timestamp="1597658193938">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596792668100" />
-    <state width="2004" height="229" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597656369607" />
-    <state width="2004" height="229" key="GridCell.Tab.0.right" timestamp="1597656369607">
+    <state width="2004" height="229" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597658193938" />
+    <state width="2004" height="229" key="GridCell.Tab.0.right" timestamp="1597658193938">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597656369607" />
+    <state width="2004" height="229" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597658193938" />
     <state width="2004" height="264" key="GridCell.Tab.1.bottom" timestamp="1597537261000">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -778,10 +769,10 @@
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595403289500" />
     <state x="332" y="0" width="1332" height="715" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1597191515913" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1597621584470">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1597658393526">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1597621584470" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1597658393526" />
     <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596936650081">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
