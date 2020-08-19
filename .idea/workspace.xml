@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="最长上升子序列">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/WildcardMatching.java" afterDir="false" />
+    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="通配符匹配">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/ReverseStringII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -283,14 +283,7 @@
       <workItem from="1597619944342" duration="28153000" />
       <workItem from="1597708137010" duration="7868000" />
       <workItem from="1597719149489" duration="14127000" />
-      <workItem from="1597789132814" duration="7711000" />
-    </task>
-    <task id="LOCAL-00023" summary="序列化、分序列化二叉树">
-      <created>1595729625928</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1595729625928</updated>
+      <workItem from="1597789132814" duration="10389000" />
     </task>
     <task id="LOCAL-00024" summary="最多元素">
       <created>1595772179977</created>
@@ -628,7 +621,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597805685749</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="通配符匹配">
+      <created>1597810071570</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1597810071571</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,7 +647,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最长有效括号" />
     <MESSAGE value="最小编辑距离" />
     <MESSAGE value="矩形区域不超过 K 的最大数值和" />
     <MESSAGE value="青蛙过河" />
@@ -672,7 +671,8 @@
     <MESSAGE value="数组的相对排序" />
     <MESSAGE value="字符串中第一个唯一字符" />
     <MESSAGE value="最长上升子序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="最长上升子序列" />
+    <MESSAGE value="通配符匹配" />
+    <option name="LAST_COMMIT_MESSAGE" value="通配符匹配" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
