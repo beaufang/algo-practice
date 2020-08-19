@@ -27,25 +27,19 @@ public class LongestValidParentheses {
      * @return
      */
     public int longestValidParentheses(String s) {
-        if (s == null || s.length() < 2) {
-            return 0;
-        }
-        int[] dp = new int[s.length()];
-        dp[1] = 0;
+        int len = s.length();
+        if (len < 2) return 0;
         int ans = 0;
-        for (int i = 1; i < dp.length; i++) {
-            if (s.charAt(i) == ')') {
-                int index = i - dp[i - 1] - 1;
-                if (index >= 0 && s.charAt(index) == '(') {
-                    // 对应上面 dp 方程的第三部分
-                    int leftIndex = i - dp[i - 1] - 2;
-                    int leftCount = 0;
-                    if (leftIndex >= 0) {
-                        leftCount = dp[i - dp[i - 1] - 2];
-                    }
-                    dp[i] = 2 + dp[i - 1] + leftCount;
-                    ans = Math.max(ans, dp[i]);
+        // dp[i] 表示以 i 结尾的串有效括号的位数
+        int[] dp = new int[len];
+        for (int i = 1; i < len; i++) {
+            int left = i - dp[i - 1] - 1;
+            if (s.charAt(i) == ')' && left >= 0 && s.charAt(left) == '(') {
+                dp[i] = 2 + dp[i - 1];
+                if (left >= 2) {
+                    dp[i] += dp[left - 1];
                 }
+                ans = Math.max(dp[i], ans);
             }
         }
         return ans;

@@ -22,10 +22,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="合并区间">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/RelativeSortArray.java" afterDir="false" />
+    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="数组的相对排序">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/FirstUniqueCharacterInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/ReversePairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week4/LongestValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week4/LongestValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/MinimumGeneticMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week5/MinimumGeneticMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/LongestPalindromicSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/template/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/template/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/template/BinBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/template/BinBFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,91 +121,90 @@
       <recent name="D:\workplace\practice\algo-practice\src\main\java\com\beau\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.beau.Main" />
-      <module name="algo-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.beau.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LongestPalindromicSubstring.test">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BucketSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.base.sort.*" />
+          <option name="PATTERN" value="com.beau.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau.base.sort" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.base.sort.BucketSort" />
+      <option name="PACKAGE_NAME" value="com.beau.template" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.template.BFS" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BFS.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beau.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.beau.template" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.template.BFS" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountingSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinBFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.base.sort.*" />
+          <option name="PATTERN" value="com.beau.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau.base.sort" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.base.sort.CountingSort" />
+      <option name="PACKAGE_NAME" value="com.beau.template" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.template.BinBFS" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinBFS.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beau.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.beau.template" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.template.BinBFS" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestPalindromicSubstring.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.base.sort.*" />
+          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau.base.sort" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.base.sort.HeapSort" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadixSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.beau.base.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.beau.base.sort" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.base.sort.RadixSort" />
+      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.LongestPalindromicSubstring" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -208,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.RadixSort.test" />
-        <item itemvalue="JUnit.BucketSort.test" />
-        <item itemvalue="JUnit.CountingSort.test" />
-        <item itemvalue="JUnit.HeapSort.test" />
+        <item itemvalue="JUnit.LongestPalindromicSubstring.test" />
+        <item itemvalue="JUnit.BinBFS.test" />
+        <item itemvalue="JUnit.BFS.test" />
+        <item itemvalue="JUnit.BFS" />
+        <item itemvalue="JUnit.BinBFS" />
       </list>
     </recent_temporary>
   </component>
@@ -281,14 +286,10 @@
       <workItem from="1597361407069" duration="16703000" />
       <workItem from="1597444808305" duration="11259000" />
       <workItem from="1597533574279" duration="5951000" />
-      <workItem from="1597619944342" duration="26652000" />
-    </task>
-    <task id="LOCAL-00020" summary="全排列">
-      <created>1595670798290</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1595670798290</updated>
+      <workItem from="1597619944342" duration="28153000" />
+      <workItem from="1597708137010" duration="7868000" />
+      <workItem from="1597719149489" duration="14127000" />
+      <workItem from="1597789132814" duration="1259000" />
     </task>
     <task id="LOCAL-00021" summary="全排列II">
       <created>1595674352214</created>
@@ -626,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597661364167</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="数组的相对排序">
+      <created>1597671984840</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1597671984840</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,7 +653,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最大正方形" />
     <MESSAGE value="任务调度器" />
     <MESSAGE value="回文子串的个数" />
     <MESSAGE value="最长有效括号" />
@@ -670,7 +677,8 @@
     <MESSAGE value="LRUCache" />
     <MESSAGE value="十大排序算法" />
     <MESSAGE value="合并区间" />
-    <option name="LAST_COMMIT_MESSAGE" value="合并区间" />
+    <MESSAGE value="数组的相对排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组的相对排序" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
@@ -713,31 +721,31 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="198" y="94" key="DiffContextDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1594770786828" />
-    <state x="732" y="225" key="FileChooserDialogImpl" timestamp="1596809247735">
+    <state x="732" y="225" key="FileChooserDialogImpl" timestamp="1597715891266">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594888453718" />
-    <state x="732" y="225" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1596809247735" />
-    <state width="2004" height="229" key="GridCell.Tab.0.bottom" timestamp="1597670432501">
+    <state x="732" y="225" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1597715891266" />
+    <state width="2004" height="229" key="GridCell.Tab.0.bottom" timestamp="1597763396532">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597670432501" />
-    <state width="2004" height="229" key="GridCell.Tab.0.center" timestamp="1597670432501">
+    <state width="2004" height="229" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597763396532" />
+    <state width="2004" height="229" key="GridCell.Tab.0.center" timestamp="1597763396532">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597670432501" />
-    <state width="2004" height="229" key="GridCell.Tab.0.left" timestamp="1597670432501">
+    <state width="2004" height="229" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597763396532" />
+    <state width="2004" height="229" key="GridCell.Tab.0.left" timestamp="1597763396531">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596792668100" />
-    <state width="2004" height="229" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597670432501" />
-    <state width="2004" height="229" key="GridCell.Tab.0.right" timestamp="1597670432501">
+    <state width="2004" height="229" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597763396531" />
+    <state width="2004" height="229" key="GridCell.Tab.0.right" timestamp="1597763396532">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597670432501" />
+    <state width="2004" height="229" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597763396532" />
     <state width="2004" height="264" key="GridCell.Tab.1.bottom" timestamp="1597537261000">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -767,10 +775,10 @@
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595403289500" />
     <state x="332" y="0" width="1332" height="715" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1597191515913" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1597658393526">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1597671986918">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1597658393526" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1597671986918" />
     <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596936650081">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -792,11 +800,11 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="434" y="251" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1596634019255" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1597670475377">
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1597754381109">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="515" y="180" width="672" height="503" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596786554723" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1597670475377" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1597754381109" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -825,11 +833,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/FindMinimumInRotatedSortedArray.java</url>
           <line>73</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beau/Solution.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

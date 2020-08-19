@@ -29,7 +29,7 @@ public class LongestPalindromicSubstring {
                 // 注意括号
                 if (j - i == 0 || s.charAt(i) == s.charAt(j) && (dp[i+1][j-1] || j - i == 1)) {
                     dp[i][j] = true;
-                   if (j - i + i > maxLen) {
+                   if (j - i + 1 > maxLen) {
                        maxLen = j - i + 1;
                        start = i;
                    }

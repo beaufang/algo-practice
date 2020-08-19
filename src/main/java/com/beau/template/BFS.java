@@ -12,6 +12,7 @@ import java.util.*;
 public class BFS {
 
     public int bfs(Node start, Node target) {
+        if (start == target) return 0;
         Queue<Node> queue = new LinkedList<>();
         Set<Node> visited = new HashSet<>();
         queue.add(start);
@@ -22,13 +23,11 @@ public class BFS {
             Set<Node> nextLevel = new HashSet<>();
             for (int i = 0; i < size; i++) {
                 Node node = queue.poll();
-                if (node == target) {
-                    return step;
-                }
                 if (node.children == null) {
                     continue;
                 }
                 for (Node child : node.children) {
+                    if (child == target) return step + 1;
                     if (!visited.contains(child)) {
                         nextLevel.add(child);
                     }
@@ -50,6 +49,8 @@ public class BFS {
         node.children.add(node2);
         node.children.add(node3);
         System.out.println(bfs(node, new Node()));
+        System.out.println(bfs(node, node));
+        System.out.println(bfs(node, node2));
         System.out.println(bfs(node, node3));
     }
 }

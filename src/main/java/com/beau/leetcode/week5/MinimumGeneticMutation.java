@@ -11,6 +11,48 @@ public class MinimumGeneticMutation {
 
     public int minMutation(String start, String end, String[] bank) {
         Set<String> bankSet = new HashSet<>(Arrays.asList(bank));
+        if (!bankSet.contains(end)) return -1;
+        int step = 0;
+        Set<String> q1 = new HashSet<>();
+        Set<String> q2 = new HashSet<>();
+        Set<String> visited = new HashSet<>();
+        q1.add(start);
+        q2.add(end);
+        visited.add(start);
+        visited.add(end);
+        char[] genes = {'A', 'C', 'G', 'T'};
+        while (!q1.isEmpty() && !q2.isEmpty()) {
+            if (q1.size() > q2.size()) {
+                Set<String> temp = q1;
+                q1 = q2;
+                q2 = temp;
+            }
+            Set<String> nextLevel = new HashSet<>();
+            for (String c : q1) {
+                char[] chs = c.toCharArray();
+                for (int i = 0; i < chs.length; i++) {
+                    char old = chs[i];
+                    for (char g : genes) {
+                        if (old == g) continue;
+                        chs[i] = g;
+                        String newStr = new String(chs);
+                        if (q2.contains(newStr)) return step+1;
+                        if (!visited.contains(newStr) && bankSet.contains(newStr)) {
+                            nextLevel.add(newStr);
+                        }
+                    }
+                    chs[i] = old;
+                }
+            }
+            step++;
+            q1 = nextLevel;
+            visited.addAll(nextLevel);
+        }
+        return -1;
+    }
+
+    public int minMutation2(String start, String end, String[] bank) {
+        Set<String> bankSet = new HashSet<>(Arrays.asList(bank));
         if (!bankSet.contains(end)) {
             return -1;
         }
