@@ -22,15 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="翻转字符串里的单词">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/binarysearch/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/binarysearch/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/template/BinarySearch1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/template/BinarySearch2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/template/BinarySearch3.java" afterDir="false" />
+    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="二分搜索">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/IsomorphicStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/ReverseOnlyLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/ReverseWordsInAStringIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/ValidPalindromeII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/SearchTnRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/ReversePairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/ReversePairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +118,7 @@
       <recent name="D:\workplace\practice\algo-practice\src\main\java\com\beau\base" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindFirstAndLastPositionOfElementInSortedArray.test">
+  <component name="RunManager" selected="JUnit.ValidPalindromeII">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -135,80 +132,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsomorphicStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.template.*" />
+          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau.template" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.template.BinarySearch2" />
+      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.IsomorphicStrings" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsomorphicStrings.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.IsomorphicStrings" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseOnlyLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.template.*" />
+          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau.template" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.template.BinarySearch2" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.ReverseOnlyLetters" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch3.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidPalindromeII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.template.*" />
+          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau.template" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.template.BinarySearch3" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.ValidPalindromeII" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch3.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidPalindromeII.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.template.*" />
+          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau.template" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.template.BinarySearch3" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindFirstAndLastPositionOfElementInSortedArray.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.beau.leetcode.binarysearch" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.binarysearch.FindFirstAndLastPositionOfElementInSortedArray" />
+      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.ValidPalindromeII" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -217,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindFirstAndLastPositionOfElementInSortedArray.test" />
-        <item itemvalue="JUnit.BinarySearch2.test2" />
-        <item itemvalue="JUnit.BinarySearch3.test2" />
-        <item itemvalue="JUnit.BinarySearch3.test" />
-        <item itemvalue="JUnit.BinarySearch2.test" />
+        <item itemvalue="JUnit.ValidPalindromeII" />
+        <item itemvalue="JUnit.ValidPalindromeII.test" />
+        <item itemvalue="JUnit.IsomorphicStrings.test" />
+        <item itemvalue="JUnit.IsomorphicStrings" />
+        <item itemvalue="JUnit.ReverseOnlyLetters" />
       </list>
     </recent_temporary>
   </component>
@@ -294,14 +288,7 @@
       <workItem from="1597708137010" duration="7868000" />
       <workItem from="1597719149489" duration="14127000" />
       <workItem from="1597789132814" duration="14188000" />
-      <workItem from="1597884353355" duration="7129000" />
-    </task>
-    <task id="LOCAL-00026" summary="买卖股票的最佳时机2">
-      <created>1595817949656</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1595817949656</updated>
+      <workItem from="1597884353355" duration="16990000" />
     </task>
     <task id="LOCAL-00027" summary="分发饼干">
       <created>1595818543172</created>
@@ -639,7 +626,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597823300483</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="二分搜索">
+      <created>1597892824237</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1597892824237</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -658,7 +652,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="青蛙过河" />
     <MESSAGE value="分隔数组的和的最小值" />
     <MESSAGE value="学生出勤" />
     <MESSAGE value="最小覆盖子串" />
@@ -683,7 +676,8 @@
     <MESSAGE value="通配符匹配" />
     <MESSAGE value="反转字符串 II" />
     <MESSAGE value="翻转字符串里的单词" />
-    <option name="LAST_COMMIT_MESSAGE" value="翻转字符串里的单词" />
+    <MESSAGE value="二分搜索" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分搜索" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
@@ -731,46 +725,46 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594888453718" />
     <state x="732" y="225" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1597715891266" />
-    <state width="2004" height="229" key="GridCell.Tab.0.bottom" timestamp="1597890815236">
+    <state width="2004" height="229" key="GridCell.Tab.0.bottom" timestamp="1597921983560">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597890815236" />
-    <state width="2004" height="229" key="GridCell.Tab.0.center" timestamp="1597890815236">
+    <state width="2004" height="229" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597921983560" />
+    <state width="2004" height="229" key="GridCell.Tab.0.center" timestamp="1597921983560">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597890815236" />
-    <state width="2004" height="229" key="GridCell.Tab.0.left" timestamp="1597890815236">
+    <state width="2004" height="229" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597921983560" />
+    <state width="2004" height="229" key="GridCell.Tab.0.left" timestamp="1597921983560">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596792668100" />
-    <state width="2004" height="229" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597890815236" />
-    <state width="2004" height="229" key="GridCell.Tab.0.right" timestamp="1597890815236">
+    <state width="2004" height="229" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597921983560" />
+    <state width="2004" height="229" key="GridCell.Tab.0.right" timestamp="1597921983560">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597890815236" />
-    <state width="2004" height="264" key="GridCell.Tab.1.bottom" timestamp="1597537261000">
+    <state width="2004" height="229" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597921983560" />
+    <state width="2004" height="264" key="GridCell.Tab.1.bottom" timestamp="1597911653589">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597537261000" />
-    <state width="2004" height="264" key="GridCell.Tab.1.center" timestamp="1597537261000">
+    <state width="2004" height="264" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597911653589" />
+    <state width="2004" height="264" key="GridCell.Tab.1.center" timestamp="1597911653589">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597537261000" />
-    <state width="2004" height="264" key="GridCell.Tab.1.left" timestamp="1597537261000">
+    <state width="2004" height="264" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597911653589" />
+    <state width="2004" height="264" key="GridCell.Tab.1.left" timestamp="1597911653589">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597537261000" />
-    <state width="2004" height="264" key="GridCell.Tab.1.right" timestamp="1597537261000">
+    <state width="2004" height="264" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597911653589" />
+    <state width="2004" height="264" key="GridCell.Tab.1.right" timestamp="1597911653589">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597537261000" />
+    <state width="2004" height="264" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597911653589" />
     <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1596024188386">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -780,14 +774,14 @@
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595403289500" />
     <state x="332" y="0" width="1332" height="715" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1597191515913" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1597805672337">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1597892836118">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1597805672337" />
-    <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597826680065">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1597892836118" />
+    <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597911803898">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1597826680065" />
+    <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1597911803898" />
     <state x="599" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1597185971259">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
