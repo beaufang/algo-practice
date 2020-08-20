@@ -5,7 +5,7 @@ package com.beau.leetcode.week3;
  * Date: 2020/7/29
  * 33 https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
  */
-public class SearchTnRotatedSortedArray {
+public class SearchInRotatedSortedArray {
 
 
     public static int search(int[] nums, int target) {
@@ -72,7 +72,7 @@ public class SearchTnRotatedSortedArray {
 
 
     public static void main(String[] args) {
-        SearchTnRotatedSortedArray solution = new SearchTnRotatedSortedArray();
+        SearchInRotatedSortedArray solution = new SearchInRotatedSortedArray();
         System.out.println(solution.search(new int[]{1,  3}, 1));
         System.out.println(solution.search(new int[]{4,5,6,7,0,1,2}, 1));
         System.out.println(solution.search(new int[]{4,3,2,1}, 2));

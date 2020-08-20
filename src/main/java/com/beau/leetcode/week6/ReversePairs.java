@@ -15,43 +15,40 @@ public class ReversePairs {
         return mergeSort(nums, 0, nums.length - 1);
     }
 
-    private int mergeSort(int[] arr, int left, int right) {
-        if (right <= left) return 0;
+    private int mergeSort(int[] nums, int left, int right) {
+        if (left >= right) return 0;
         int mid = left + (right - left) / 2;
         int count = 0;
-        // 翻转对的数量为左区间元素形成的翻转对数量+右区间元素翻转对数量+左区间元素和右区间元素形成的反转对数量
-        count += mergeSort(arr, left, mid);
-        count += mergeSort(arr, mid + 1, right);
-        // 在 merge 之前统计左区间和右区间形成的翻转对的个数
-        int i = left, j = mid + 1;
-        while (i <= mid) {
-            // 除 2.0 防止溢出
-            while (j <= right && arr[i] / 2.0 > arr[j]) {
+        // 重要翻转对的数量为左区间的数量+右区间的数量+左和右区间之间形成的重要翻转对的数量
+        count += mergeSort(nums, left, mid);
+        count += mergeSort(nums, mid + 1, right);
+        // 统计左右区间形成的翻转对数量
+        for (int i = left, j = mid + 1; i <= mid; i++) {
+            // 模 2.0 防止溢出
+            while (j <= right && nums[i] / 2.0 > nums[j]) {
                 j++;
             }
-            // 重点理解，i 和 [mid+1,j) 直接的元素都可以形成翻转对
+            // 重点理解：i 和 [mid + 1, j) 之间的元素都可以形成重要翻转对
             count += j - (mid + 1);
-            i++;
         }
-        merge(arr, left, mid, right);
+        merge(nums, left, mid, right);
+
         return count;
     }
 
-    // 合并
-    private void merge(int[] arr, int left, int mid, int right) {
-        // 中间数组
+    private void merge(int[] nums, int left, int mid, int right) {
         int[] temp = new int[right - left + 1];
-        int i = left, j = mid + 1, k = 0;
-        while (i <= mid && j <= right) {
-            temp[k++] = arr[i] < arr[j] ? arr[i++] : arr[j++];
+        int i = left, j = mid + 1, index = 0;
+        while (i <= mid & j <= right) {
+            temp[index++] = nums[i] < nums[j] ? nums[i++] : nums[j++];
         }
         while (i <= mid) {
-            temp[k++] = arr[i++];
+            temp[index++] = nums[i++];
         }
         while (j <= right) {
-            temp[k++] = arr[j++];
+            temp[index++] = nums[j++];
         }
-        System.arraycopy(temp, 0, arr, left, temp.length);
+        System.arraycopy(temp, 0, nums, left, temp.length);
     }
 
     @Test

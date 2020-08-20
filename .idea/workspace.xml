@@ -22,9 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="反转字符串 II">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/ReverseWordsInAString.java" afterDir="false" />
+    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="翻转字符串里的单词">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/binarysearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/binarysearch/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/template/BinarySearch1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/template/BinarySearch2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/template/BinarySearch3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/SearchTnRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week3/SearchInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/ReversePairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/ReversePairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +111,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.beau.template" />
       <recent name="com.beau.leetcode.week5" />
       <recent name="com.beau.common" />
     </key>
@@ -114,19 +121,21 @@
       <recent name="D:\workplace\practice\algo-practice\src\main\java\com\beau\base" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseWordsInAString.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FindFirstAndLastPositionOfElementInSortedArray.test">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinBFS.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearch2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
@@ -135,70 +144,71 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.beau.template" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.template.BinBFS" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.template.BinarySearch2" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubstring.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearch2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
+          <option name="PATTERN" value="com.beau.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.LongestPalindromicSubstring" />
+      <option name="PACKAGE_NAME" value="com.beau.template" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.template.BinarySearch2" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearch3.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beau.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.beau.template" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.template.BinarySearch3" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsInAString.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearch3.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
+          <option name="PATTERN" value="com.beau.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.ReverseWordsInAString" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.beau.template" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.template.BinarySearch3" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WildcardMatching" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindFirstAndLastPositionOfElementInSortedArray.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
+          <option name="PATTERN" value="com.beau.leetcode.binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.WildcardMatching" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WildcardMatching.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.WildcardMatching" />
+      <option name="PACKAGE_NAME" value="com.beau.leetcode.binarysearch" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.binarysearch.FindFirstAndLastPositionOfElementInSortedArray" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -207,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReverseWordsInAString.test" />
-        <item itemvalue="JUnit.WildcardMatching" />
-        <item itemvalue="JUnit.WildcardMatching.test" />
-        <item itemvalue="JUnit.LongestPalindromicSubstring.test" />
-        <item itemvalue="JUnit.BinBFS.test" />
+        <item itemvalue="JUnit.FindFirstAndLastPositionOfElementInSortedArray.test" />
+        <item itemvalue="JUnit.BinarySearch2.test2" />
+        <item itemvalue="JUnit.BinarySearch3.test2" />
+        <item itemvalue="JUnit.BinarySearch3.test" />
+        <item itemvalue="JUnit.BinarySearch2.test" />
       </list>
     </recent_temporary>
   </component>
@@ -283,14 +293,8 @@
       <workItem from="1597619944342" duration="28153000" />
       <workItem from="1597708137010" duration="7868000" />
       <workItem from="1597719149489" duration="14127000" />
-      <workItem from="1597789132814" duration="10995000" />
-    </task>
-    <task id="LOCAL-00025" summary="柠檬水找零">
-      <created>1595806192418</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1595806192418</updated>
+      <workItem from="1597789132814" duration="14188000" />
+      <workItem from="1597884353355" duration="7129000" />
     </task>
     <task id="LOCAL-00026" summary="买卖股票的最佳时机2">
       <created>1595817949656</created>
@@ -628,7 +632,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597822682636</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="翻转字符串里的单词">
+      <created>1597823300483</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1597823300483</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,7 +658,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="矩形区域不超过 K 的最大数值和" />
     <MESSAGE value="青蛙过河" />
     <MESSAGE value="分隔数组的和的最小值" />
     <MESSAGE value="学生出勤" />
@@ -672,7 +682,8 @@
     <MESSAGE value="最长上升子序列" />
     <MESSAGE value="通配符匹配" />
     <MESSAGE value="反转字符串 II" />
-    <option name="LAST_COMMIT_MESSAGE" value="反转字符串 II" />
+    <MESSAGE value="翻转字符串里的单词" />
+    <option name="LAST_COMMIT_MESSAGE" value="翻转字符串里的单词" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
@@ -720,26 +731,26 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594888453718" />
     <state x="732" y="225" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1597715891266" />
-    <state width="2004" height="229" key="GridCell.Tab.0.bottom" timestamp="1597823124555">
+    <state width="2004" height="229" key="GridCell.Tab.0.bottom" timestamp="1597890815236">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597823124555" />
-    <state width="2004" height="229" key="GridCell.Tab.0.center" timestamp="1597823124555">
+    <state width="2004" height="229" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1597890815236" />
+    <state width="2004" height="229" key="GridCell.Tab.0.center" timestamp="1597890815236">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597823124555" />
-    <state width="2004" height="229" key="GridCell.Tab.0.left" timestamp="1597823124555">
+    <state width="2004" height="229" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1597890815236" />
+    <state width="2004" height="229" key="GridCell.Tab.0.left" timestamp="1597890815236">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596792668100" />
-    <state width="2004" height="229" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597823124555" />
-    <state width="2004" height="229" key="GridCell.Tab.0.right" timestamp="1597823124555">
+    <state width="2004" height="229" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1597890815236" />
+    <state width="2004" height="229" key="GridCell.Tab.0.right" timestamp="1597890815236">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="229" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597823124555" />
+    <state width="2004" height="229" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1597890815236" />
     <state width="2004" height="264" key="GridCell.Tab.1.bottom" timestamp="1597537261000">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -773,10 +784,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1597805672337" />
-    <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596936650081">
+    <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597826680065">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1596936650081" />
+    <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1597826680065" />
     <state x="599" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1597185971259">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -794,11 +805,11 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="434" y="251" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1596634019255" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1597754381109">
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1597891825750">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="515" y="180" width="672" height="503" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596786554723" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1597754381109" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1597891825750" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
