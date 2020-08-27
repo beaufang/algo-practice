@@ -44,4 +44,9 @@ public class BastTest {
         System.out.println(fib(5));
         System.out.println(fib(48));
     }
+
+    @Test
+    public void test() {
+        System.out.println(1_000);
+    }
 }

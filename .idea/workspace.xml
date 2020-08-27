@@ -22,10 +22,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="字符串转整数">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/DistinctSubsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/week6/FindAllAnagramsInAString.java" afterDir="false" />
+    <list default="true" id="00a45233-8c34-4ae7-a491-fe855a259350" name="Default Changelist" comment="不同的子序列">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/string/AC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/string/BM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/string/BruteForce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/string/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/string/RabinKarp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/string/RabinKarp_Algo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/base/string/Sunday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/dfs/_491_IncreasingSubsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/other/_5495_MostVisitedSectorInACircularTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/other/_5496_MaximumNumberOfCoinsYouCanGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beau/leetcode/string/_459_RepeatedSubstringPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beau/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beau/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/beau/BastTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/beau/BastTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,92 +127,83 @@
       <recent name="D:\workplace\practice\algo-practice\src\main\java\com\beau\base" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DistinctSubsequences">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit._491_IncreasingSubsequences.test">
+    <configuration name="AC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.beau.base.string.AC" />
+      <module name="algo-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beau.base.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.beau.base.string.BM" />
+      <module name="algo-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beau.base.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week2.Combinations" />
+      <module name="algo-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beau.leetcode.week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DistinctSubsequences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.DistinctSubsequences" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistinctSubsequences.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Sunday.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
+          <option name="PATTERN" value="com.beau.base.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.DistinctSubsequences" />
+      <option name="PACKAGE_NAME" value="com.beau.base.string" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.base.string.Sunday" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAllAnagramsInAString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_491_IncreasingSubsequences.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
+          <option name="PATTERN" value="com.beau.leetcode.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.FindAllAnagramsInAString" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindAllAnagramsInAString.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.FindAllAnagramsInAString" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringToInteger.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.beau.leetcode.week6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.beau.leetcode.week6" />
-      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.week6.StringToInteger" />
+      <option name="PACKAGE_NAME" value="com.beau.leetcode.dfs" />
+      <option name="MAIN_CLASS_NAME" value="com.beau.leetcode.dfs._491_IncreasingSubsequences" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -210,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DistinctSubsequences" />
-        <item itemvalue="JUnit.DistinctSubsequences.test" />
-        <item itemvalue="JUnit.FindAllAnagramsInAString.test" />
-        <item itemvalue="JUnit.FindAllAnagramsInAString" />
-        <item itemvalue="JUnit.StringToInteger.test" />
+        <item itemvalue="JUnit._491_IncreasingSubsequences.test" />
+        <item itemvalue="Application.Combinations" />
+        <item itemvalue="Application.AC" />
+        <item itemvalue="JUnit.Sunday.test" />
+        <item itemvalue="Application.BM" />
       </list>
     </recent_temporary>
   </component>
@@ -289,14 +291,12 @@
       <workItem from="1597789132814" duration="14188000" />
       <workItem from="1597884353355" duration="19942000" />
       <workItem from="1597965541765" duration="21741000" />
-      <workItem from="1598053240848" duration="3267000" />
-    </task>
-    <task id="LOCAL-00029" summary="Pow(x,n)">
-      <created>1595894222244</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1595894222244</updated>
+      <workItem from="1598053240848" duration="7286000" />
+      <workItem from="1598147341515" duration="7977000" />
+      <workItem from="1598226009690" duration="1847000" />
+      <workItem from="1598347561671" duration="9748000" />
+      <workItem from="1598417634494" duration="11819000" />
+      <workItem from="1598482408538" duration="17564000" />
     </task>
     <task id="LOCAL-00030" summary="子集">
       <created>1595922132951</created>
@@ -634,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597975910457</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="不同的子序列">
+      <created>1598061677638</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1598061677638</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +660,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最小覆盖子串" />
     <MESSAGE value="戳气球" />
     <MESSAGE value="字典树" />
     <MESSAGE value="解数独" />
@@ -678,7 +684,8 @@
     <MESSAGE value="二分搜索" />
     <MESSAGE value="验证回文字符串" />
     <MESSAGE value="字符串转整数" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串转整数" />
+    <MESSAGE value="不同的子序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="不同的子序列" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1594623361026">
@@ -726,46 +733,46 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594888453718" />
     <state x="732" y="225" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1597715891266" />
-    <state width="2004" height="222" key="GridCell.Tab.0.bottom" timestamp="1598058960198">
+    <state width="2004" height="222" key="GridCell.Tab.0.bottom" timestamp="1598518013075">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="222" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1598058960198" />
-    <state width="2004" height="222" key="GridCell.Tab.0.center" timestamp="1598058960198">
+    <state width="2004" height="222" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1598518013075" />
+    <state width="2004" height="222" key="GridCell.Tab.0.center" timestamp="1598518013075">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="222" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1598058960198" />
-    <state width="2004" height="222" key="GridCell.Tab.0.left" timestamp="1598058960198">
+    <state width="2004" height="222" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1598518013075" />
+    <state width="2004" height="222" key="GridCell.Tab.0.left" timestamp="1598518013074">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596792668100" />
-    <state width="2004" height="222" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1598058960198" />
-    <state width="2004" height="222" key="GridCell.Tab.0.right" timestamp="1598058960198">
+    <state width="2004" height="222" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1598518013074" />
+    <state width="2004" height="222" key="GridCell.Tab.0.right" timestamp="1598518013075">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1492" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596792668101" />
-    <state width="2004" height="222" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1598058960198" />
-    <state width="2004" height="264" key="GridCell.Tab.1.bottom" timestamp="1598019454183">
+    <state width="2004" height="222" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1598518013075" />
+    <state width="2004" height="264" key="GridCell.Tab.1.bottom" timestamp="1598454418822">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1598019454183" />
-    <state width="2004" height="264" key="GridCell.Tab.1.center" timestamp="1598019454183">
+    <state width="2004" height="264" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1598454418822" />
+    <state width="2004" height="264" key="GridCell.Tab.1.center" timestamp="1598454418822">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1598019454183" />
-    <state width="2004" height="264" key="GridCell.Tab.1.left" timestamp="1598019454183">
+    <state width="2004" height="264" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1598454418822" />
+    <state width="2004" height="264" key="GridCell.Tab.1.left" timestamp="1598454418822">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1598019454183" />
-    <state width="2004" height="264" key="GridCell.Tab.1.right" timestamp="1598019454183">
+    <state width="2004" height="264" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1598454418822" />
+    <state width="2004" height="264" key="GridCell.Tab.1.right" timestamp="1598454418822">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596166037434" />
-    <state width="2004" height="264" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1598019454183" />
+    <state width="2004" height="264" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1598454418822" />
     <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1596024188386">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -775,10 +782,10 @@
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595403289500" />
     <state x="332" y="0" width="1332" height="715" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1597191515913" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1598000867720">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1598065634000">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1598000867720" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1598065634000" />
     <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597911803898">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -788,6 +795,10 @@
     </state>
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596071263010" />
     <state x="599" y="318" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1597185971259" />
+    <state x="564" y="193" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598349419797">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="564" y="193" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1598349419797" />
     <state x="829" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597445165893">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -800,11 +811,11 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="434" y="251" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1596634019255" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1597932360714">
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1598514805223">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="515" y="180" width="672" height="503" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596786554723" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1597932360714" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1598514805223" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
