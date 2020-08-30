@@ -36,10 +36,12 @@ public class _491_IncreasingSubsequences {
         if (nums[level] != last) {
             dfs(nums, level + 1, path, ans);
         }
+
     }
 
     @Test
     public void test() {
         System.out.println(findSubsequences(new int[]{4, 6, 7, 7}));
+        System.out.println(findSubsequences(new int[]{4, 3, 7, 7}));
     }
 }

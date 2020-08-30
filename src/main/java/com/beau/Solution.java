@@ -2,57 +2,63 @@ package com.beau;
 
 import org.junit.Test;
 
-import java.util.TreeMap;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class Solution {
 
-
-
-
-
-    public int findLatestStep(int[] arr, int m) {
-        TreeMap<Integer,Integer> map = new TreeMap<>();
-        int n = arr.length;
-        map.put(1, n);
-        if (m == n) return n;
-        for (int i = n - 1; i >= 0; i--) {
-            int idx = arr[i];
-            int start = map.floorKey(idx);
-            int end = map.get(start);
-            if (idx > start) {
-                if (idx - start == m) return i;
-                map.put(start, idx-1);
-            }
-            if (idx < end) {
-                if (end - idx == m) return i;
-                map.put(idx+1, end);
-            }
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        Set<String> wordSet = new HashSet<>(wordList);
+        if (!wordSet.contains(endWord)) {
+            return 0;
         }
-        return -1;
-    }
-
-    public int findLatestStep2(int[] arr, int m) {
-        int ans = -1;
-        int len = arr.length;
-        int target = ((1 << m) - 1);
-        int mask = target << (len - m - 1);
-        int num = 0;
-        for (int i = 0; i < len; i++) {
-            num |= (1 << (len - arr[i]));
-            int temp = mask;
-            while (temp >= target) {
-                if ((num & temp) == target) {
-                    ans = i;
-                    break;
+        wordSet.remove(beginWord);
+        int step = 1;
+        Set<String> q1 = new HashSet<>();
+        Set<String> q2 = new HashSet<>();
+        Set<String> visited = new HashSet<>();
+        q1.add(beginWord);
+        q2.add(endWord);
+        visited.add(beginWord);
+        visited.add(endWord);
+        while (!q1.isEmpty() && !q2.isEmpty()) {
+            if (q1.size() > q2.size()) {
+                Set<String> temp = q1;
+                q1 = q2;
+                q2 = temp;
+            }
+            Set<String> nextLevel = new HashSet<>();
+            for (String word : q1) {
+                char[] chs = word.toCharArray();
+                for (int i = 0; i < chs.length; i++) {
+                    char old = chs[i];
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        if (c == old) continue;
+                        chs[i] = c;
+                        String newWord = new String(chs);
+                        if (wordSet.contains(newWord)) {
+                            if (q2.contains(newWord)) return step + 1;
+                            if (!visited.contains(newWord)) {
+                                nextLevel.add(newWord);
+                            }
+                        }
+                    }
+                    chs[i] = old;
                 }
-                temp = temp >> m;
             }
+            step++;
+            q1 = nextLevel;
+            visited.addAll(nextLevel);
         }
-        return ans;
+        return 0;
     }
 
     @Test
-    public void test3() {
-        System.out.println(findLatestStep(new int[]{3, 5, 1, 2, 4}, 1));
+    public void test() {
+        System.out.println(ladderLength("hit", "cog", Arrays.asList("hot", "dot", "dog", "lot", "log", "cog")));
+        System.out.println(ladderLength("hit", "hot", Arrays.asList("hot", "dot", "dog", "lot", "log", "cog")));
+        System.out.println(ladderLength("hit", "hot", Arrays.asList("hot", "dot", "dog", "lot", "log", "cog")));
     }
 }

@@ -2,10 +2,7 @@ package com.beau;
 
 import org.junit.Test;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author BeauFang
@@ -48,5 +45,13 @@ public class BastTest {
     @Test
     public void test() {
         System.out.println(1_000);
+    }
+
+    @Test
+    public void test2() {
+        Random random = new Random();
+        for (int i = 0; i < 100; i++) {
+            System.out.println(random.nextInt(26));
+        }
     }
 }
